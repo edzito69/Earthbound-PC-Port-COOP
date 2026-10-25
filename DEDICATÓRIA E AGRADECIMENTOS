@@ -1,0 +1,30 @@
+Esta adaptação é dedicada às pessoas que estudaram, preservaram, traduziram
+e tornaram possível reencontrar EarthBound em novos computadores.
+Obrigado à Nintendo, a Shigesato Itoi, à APE, à HAL Laboratory e às equipes
+originais pela obra. Obrigado aos jogadores e às comunidades pelo carinho,
+pesquisa, documentação, ferramentas e traduções.
+
+Base nativa em C: Brian Pugh e colaboradores de BrianPugh/earthbound.
+https://github.com/BrianPugh/earthbound
+Revisão utilizada: a2cf5c327d367d90440c5768713056462b0c4d9e.
+Áudio SPC700/DSP: autores e colaboradores de LakeSnes.
+Janela, vídeo, áudio e controles: Sam Lantinga e colaboradores de SDL2.
+Compressão tamp: Brian Pugh e colaboradores, conforme a licença incluída.
+Incorporação de dados na compilação privada: Dale Weiler/incbin.
+Pontos de campanha: coleção pública de partidas FantasyAnime e seus autores.
+https://fantasyanime.com/legacy/earthb_saves.htm
+Bibliotecas SDL2 Linux/macOS: provenientes dos pacotes Phase Distorter 0.5
+de TheRunaway5. O executável de jogo desse projeto não foi reutilizado.
+Ferramentas de construção: Zig/Clang, Python, CMake, Ninja e ebtools.
+Adaptação de computador, menus e ajustes: Edzito, com assistência de Codex.
+
+EARTHBOUND BRASIL 1.0 — tradução de 04/04/2015 fornecida pelo usuário
+Projeto: Alex Foffano e Jared Morgan.
+Tradução/revisão/gráficos: Alex Foffano; hacking/gráficos/revisão: Jared Morgan.
+Tradução: Claus “Set” Martins, Flicky, Gustavo Diógenes (@TesauroRaptor),
+Pedro (Draco), Thiago Cianci, Vanessa e Vinicius.
+Ajuda: H.S, JeffMan, Mr. Tenda, Mr. Accident, Tomato e ShadowOne333.
+Agradecimentos: Ambrey, Carlos Almeida, Claus, Danilo, Hsing Hui Lee,
+João de Araujo, Mukuro, Porter, Rachel, Régis Sudo, Ruby, Rydel, Sadie,
+Thiago Schreiner, starmen.net, romhackers.org e romhacking.trd.br.
+Os créditos e termos originais completos acompanham a pasta licenses.
