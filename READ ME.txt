@@ -1,0 +1,208 @@
+﻿VER. 3.5 — CORREÇÕES (computadores)
+Windows, Linux e macOS. O APK Android permanece na versão anterior.
+
+O botão inferior (X do PlayStation/A do Xbox/B do Switch/1 genérico) faz
+Corrida no cenário e OK em menus e diálogos. Quadrado/X/Y/3 interage com
+um acionamento por toque, sem repetir inspeções ao segurar.
+O kit 3, Supremo, oferece equipamentos de fim de jogo para cada herói.
+Acelerar após vencer começa ligado; recuperar derrota com 15% começa
+desligado. Mapa sem o item foi desativado. O God Menu mantém o desbloqueio
+durante a sessão e Curar/reviver restaura vida, PP, estados e visuais.
+
+Correções de referências de sprites nas transições de Porky/Giygas,
+deformações de fundo por camada/eixo, separação dos efeitos PSI, fundos
+pretos com texto e proteção contra reinício indevido do tremor da câmera.
+O mouse usa posições em pixels ao selecionar e confirmar alvos de batalha.
+
+COOP EXPERIMENTAL
+As versões cooperativas estão em Earthbound PC + COOP (Experimental).
+P2 começa com equipamentos de P1, duas unidades de pão e um biscoito.
+A party principal segue P1; apenas o macaquinho pode acompanhar ambos.
+Ambos podem realizar diálogos e ações de história e comandar Paula, Jeff
+e Poo nos turnos conjuntos. Ness e Mess mantêm seus turnos individuais.
+Ao explorar longe, duas câmeras dividem a tela verticalmente, com P1/P2.
+É necessário encostar no participante da batalha para entrar; se o turno
+ainda não permitir, aparece Esperando próximo turno. Um flash marca a união.
+L3 de P2: teleportar para P1. R3 de P2: alternar seis cores das roupas,
+guardadas no save state. Select de P2: pose e saída; em batalha conjunta,
+a saída aguarda o fim da luta para preservar os turnos e a party.
+As cores são azul/roxo, laranja/turquesa, creme/verde, rosa/grafite,
+menta/vermelho e dourado/ameixa. Nos menus F1/F2 os cliques dos analógicos
+continuam acionando Mr. Saturn. Janelas de Mess têm um tom azulado.
+Correções de vida rolante de Mess, identidade do protagonista, entidades
+duplicadas, sobreposição com cenário, portas/hotspots, música e contato.
+
+VALIDAÇÃO
+Testes automatizados em Windows usam controles SDL simulados, estados a
+frio de batalhas, capítulos/kits, turnos conjuntos e transições finais.
+Linux e macOS: compilação e inspeção dos binários; não execução local.
+A campanha inteira e todos os modelos físicos não foram testados.
+O modo COOP continua experimental. Preserve cópias de segurança dos saves.
+
+VER. 3.5 — DESKTOP MAINTENANCE
+Windows, Linux and macOS; the Android APK is unchanged.
+The physical south button runs in the world and confirms native menus/text.
+West interacts once per press. Kit 3 is Ultimate, with endgame equipment.
+Post-victory acceleration defaults on; 15% recovery defaults off. Free map
+without the item is disabled. God Menu unlock lasts until process exit;
+heal/revive restores the party and its overworld appearance.
+Boss-phase sprite references, per-layer horizontal/vertical background
+raster effects, PSI routing, black intertitles, camera shake restart and
+mouse battle-target selection have been corrected.
+
+EXPERIMENTAL CO-OP
+P2 starts with P1 equipment, two Bread rolls and one Cookie. Only the
+Bubble Monkey may accompany both players. Both players can trigger story
+dialogue/actions and command Paula/Jeff/Poo during joint battles.
+Distant exploration uses a vertical P1/P2 split. Joining combat requires
+physical contact; Waiting for next turn appears while the join is pending.
+A flash marks joining combat. P2 L3 teleports to P1; R3 cycles six saved
+clothing palettes. P2 Select leaves with a photo pose; a joint battle must
+finish first to preserve turn and party state. Stick clicks inside F1/F2
+still trigger Mr. Saturn. Mess windows use a blue tint.
+Rolling HP, protagonist identity, party rebuilding, sprite occlusion,
+independent doors/hotspots, shared music and contact snapshots were fixed.
+
+Windows validation uses simulated SDL controllers and native integration
+tests. Linux/macOS binaries are compiled/inspected, not executed here.
+The full campaign and every physical controller model are not validated.
+Co-op remains experimental. Keep backup copies of personal saves.
+
+EARTHBOUND Ver.3.5 COOP — EXPERIMENTAL
+Versão por Edzito, com muito amor.
+
+COMO JOGAR
+Coloque sua própria ROM EarthBound (USA) original, sem tradução aplicada,
+em "Coloque sua Room aqui", junto das pastas dos sistemas. Use .sfc/.smc
+de 3 MiB, com ou sem cabeçalho de 512 bytes. Nenhuma ROM é fornecida,
+baixada ou modificada. Mantenha adaptacao.ebpatch junto de cada versão.
+
+Windows 10/11 x64: Port Windows/EarthBound PC COOP 3.5.exe (sem janela de comando).
+Linux x64, glibc 2.36+: Port Linux/earthbound-pc; mantenha lib junto dele.
+macOS 11+, Intel/Apple Silicon: Port Mac/EarthBound PC COOP.app.
+O aplicativo local para Mac não tem notarização Apple. Se necessário,
+autorize sua abertura nas opções de Privacidade e Segurança do sistema.
+
+ENTRAR NO MODO COOPERATIVO
+1. Inicie uma partida e abra F1 > Gameplay > COOP experimental.
+2. Leia o aviso, escolha Sim e aplique as opções. Começa desligado.
+3. No controle que deseja usar para o jogador 2, aperte Start/Options/+/Menu.
+4. Escolha Sim para entrar como Mess. Não mantém o controle com o jogador 1.
+   É possível usar teclado/mouse para P1 e um controle para P2.
+   Outros controles não atribuídos também podem comandar P1.
+
+Mess veste listras azuis e boné roxo, aparece fazendo a pose de fotografia
+e tem nome, inventário, vida, PP, experiência e equipamento próprios.
+Seu nível e kit inicial acompanham a progressão de P1. O dinheiro das vitórias
+conjuntas fica na conta de P1; o dinheiro pessoal
+de Mess permanece preservado ao entrar e sair das batalhas compartilhadas.
+O grupo da história segue P1, inclusive quando o personagem principal é Jeff.
+Cada jogador abre seu menu pessoal e pode conversar enquanto o outro anda.
+A câmera acompanha os dois e se divide verticalmente quando se afastam. A mudança de cenário
+leva ambos; uma batalha em curso deve terminar antes de deixar a área.
+Ambos podem realizar diálogos e ações principais da história.
+
+BATALHAS E SALVAMENTOS
+Uma batalha individual ocupa metade da tela; o outro jogador continua no
+cenário. Aproxime-se do jogador que luta para participar. A batalha então
+usa a tela inteira, e cada jogador escolhe os comandos de seus personagens.
+P1 controla Ness; P2 controla Mess; ambos podem comandar os companheiros. Até quatro heróis da
+campanha mais Mess podem participar juntos, com medidores de vida próprios.
+F1/F2, F3/F4 e rewind guardam/restauram ambos os jogadores no mesmo estado.
+O som usa um relógio compartilhado; uma música tem prioridade de cada vez.
+Estados cooperativos V4 exigem esta versão; não abrem na versão individual.
+Esta pasta usa Saves separados e não altera as partidas da instalação normal.
+Os saves de telefone continuam guardando a campanha de P1; use estados F1/F2
+para preservar também Mess e a sessão cooperativa completa.
+Faça cópias de segurança. Não desative COOP no meio de uma batalha conjunta.
+Se um controle desconectar, reconecte-o e use Start para reassumir Mess;
+também é possível desativar COOP no Gameplay quando não há batalha conjunta.
+
+CONTROLES PADRÃO (mesmas posições em todas as famílias)
+PS: X para Corrida no cenário e OK em menus/diálogos; Quadrado interage/aceita no jogo;
+Bolinha abre o menu pessoal/volta; Triângulo mostra vida e dinheiro.
+Xbox: A / X / B / Y. Switch: B / Y / A / X. Genérico: 1 / 3 / 2 / 4.
+Segure Corrida com movimento: +23%. Desligando Corrida, o botão inferior
+também pode interagir/confirmar. Há presets A/B/C e personalização no F1.
+F1/F2 sempre usam inferior para OK e direita para voltar, independentemente
+da personalização. L3/R3 no F1 faz o Mr. Saturn pular. L1/R1 trocam abas.
+F1: PS/Home/Xbox; F2: Share/Create/View/Capture conforme o controle.
+L3+L2/R2: zoom; R3: zoom padrão; L2: rewind; R2: acelerar 4x.
+Em controles genéricos: Back+LB/RB para rewind/aceleração e L3+LB/RB para zoom.
+Atalho alternativo F1: Back+Start. Guias ilustrados estão em Controles e F1.
+Teclado: WASD/setas, E/Enter aceita, Q/Esc/Ctrl volta, Tab menu pessoal,
+Shift Corrida, M mapa opcional, vírgula/ponto zoom, +/- acelerar/rewind.
+F2 saves; F3 salva e F4 carrega escolhendo um de quatro quicksaves.
+
+ATUALIZAÇÕES DESTA ENTREGA
+Botão inferior: Corrida no cenário e OK em menus/diálogos.
+Rosa sólida no chão à direita da árvore atrás da casa do Ness, no ponto
+escolhido por Edzito. Não aparece na abertura nem por cima dos personagens.
+A frase termina com "Engraçado, não lembro quem plantou isso aqui."
+"Later that night..." foi traduzido como "Mais tarde, naquela noite...".
+Os APKs Android existentes não foram alterados. Não há versão COOP Android.
+
+VALIDAÇÃO E LIMITES EXPERIMENTAIS
+Testado em Windows com controles SDL simulados: menus independentes,
+turnos de ambos os jogadores, cinco heróis, cenas, rewind, fotografias
+e carregamento a frio de estados individuais e conjuntos de batalha.
+Linux e macOS foram compilados e inspecionados; não executados nesses sistemas.
+A campanha inteira e todos os modelos físicos de controle não foram testados.
+Com o grupo cheio, há espaço de combate para um acompanhante NPC adicional;
+um segundo acompanhante continua preservado no grupo de P1 fora da batalha.
+
+Esta é uma adaptação/modificação independente, sem afiliação ou aprovação
+da Nintendo. EarthBound e seus elementos pertencem aos respectivos titulares.
+Não inclua sua ROM, saves pessoais ou dados extraídos ao compartilhar a pasta.
+Para compartilhar, use o ZIP de distribuição em dist: ele exclui Source,
+Build, Validation, ROMs, saves e configurações pessoais.
+
+DEDICATÓRIA E AGRADECIMENTOS
+
+Esta adaptação é dedicada às pessoas que estudaram, preservaram, traduziram
+e tornaram possível reencontrar EarthBound em novos computadores.
+Obrigado à Nintendo, a Shigesato Itoi, à APE, à HAL Laboratory e às equipes
+originais pela obra. Obrigado aos jogadores e às comunidades pelo carinho,
+pesquisa, documentação, ferramentas e traduções.
+
+Base nativa em C: Brian Pugh e colaboradores de BrianPugh/earthbound.
+https://github.com/BrianPugh/earthbound
+Revisão utilizada: a2cf5c327d367d90440c5768713056462b0c4d9e.
+Áudio SPC700/DSP: autores e colaboradores de LakeSnes.
+Janela, vídeo, áudio e controles: Sam Lantinga e colaboradores de SDL2.
+Compressão tamp: Brian Pugh e colaboradores, conforme a licença incluída.
+Incorporação de dados na compilação privada: Dale Weiler/incbin.
+Pontos de campanha: coleção pública de partidas FantasyAnime e seus autores.
+https://fantasyanime.com/legacy/earthb_saves.htm
+Bibliotecas SDL2 Linux/macOS: provenientes dos pacotes Phase Distorter 0.5
+de TheRunaway5. O executável de jogo desse projeto não foi reutilizado.
+Ferramentas de construção: Zig/Clang, Python, CMake, Ninja e ebtools.
+Adaptação de computador, menus e ajustes: Edzito, com assistência de Codex.
+
+EARTHBOUND BRASIL 1.0 — tradução de 04/04/2015 fornecida pelo usuário
+Projeto: Alex Foffano e Jared Morgan.
+Tradução/revisão/gráficos: Alex Foffano; hacking/gráficos/revisão: Jared Morgan.
+Tradução: Claus “Set” Martins, Flicky, Gustavo Diógenes (@TesauroRaptor),
+Pedro (Draco), Thiago Cianci, Vanessa e Vinicius.
+Ajuda: H.S, JeffMan, Mr. Tenda, Mr. Accident, Tomato e ShadowOne333.
+Agradecimentos: Ambrey, Carlos Almeida, Claus, Danilo, Hsing Hui Lee,
+João de Araujo, Mukuro, Porter, Rachel, Régis Sudo, Ruby, Rydel, Sadie,
+Thiago Schreiner, starmen.net, romhackers.org e romhacking.trd.br.
+Os créditos e termos originais completos acompanham a pasta licenses.
+
+SOBRE ESTE PACOTE
+Adaptação e modificação não oficial para uso pessoal em computador.
+Não é um produto oficial, afiliado ou aprovado pela Nintendo.
+Nenhuma ROM do jogo acompanha esta pasta; não há download de ROM pelo programa.
+É necessário fornecer uma cópia própria compatível. Nomes, personagens,
+imagens, músicas e marcas continuam pertencendo aos respectivos titulares.
+Créditos e agradecimentos não substituem autorização dos autores.
+A tradução EarthBound Brasil tem condições próprias de redistribuição;
+consulte EarthBoundBrasil-creditos.txt antes de compartilhar a adaptação.
+Esta pasta não concede permissão para redistribuir o jogo, a tradução ou
+outros materiais de terceiros, nem representa uma garantia jurídica.
+
+VALIDAÇÃO
+Windows: abertura, prólogo, controles virtuais, estados, batalhas e áudio testados.
+Linux/macOS: executáveis compilados e inspecionados; não executados nesta máquina.
+Uma campanha inteira e todos os controles físicos não foram testados.
