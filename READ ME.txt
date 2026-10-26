@@ -1,5 +1,5 @@
 ﻿VER. 3.5 — CORREÇÕES (computadores)
-Windows, Linux e macOS. O APK Android permanece na versão anterior.
+Windows, Linux e macOS.
 
 O botão inferior (X do PlayStation/A do Xbox/B do Switch/1 genérico) faz
 Corrida no cenário e OK em menus e diálogos. Quadrado/X/Y/3 interage com
