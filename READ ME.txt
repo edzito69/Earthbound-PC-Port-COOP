@@ -40,7 +40,7 @@ A campanha inteira e todos os modelos físicos não foram testados.
 O modo COOP continua experimental. Preserve cópias de segurança dos saves.
 
 VER. 3.5 — DESKTOP MAINTENANCE
-Windows, Linux and macOS; the Android APK is unchanged.
+Windows, Linux and macOS.
 The physical south button runs in the world and confirms native menus/text.
 West interacts once per press. Kit 3 is Ultimate, with endgame equipment.
 Post-victory acceleration defaults on; 15% recovery defaults off. Free map
