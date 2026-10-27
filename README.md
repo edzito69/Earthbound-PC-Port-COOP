@@ -20,8 +20,6 @@ HAVE FUN!
 
 - **Simultaneous Battle Commands:** P1 and Mess can select their actions simultaneously in adjacent native battle menus. Actions execute once both players finish selecting, preserving the original targeting, item, and turn rules. Save states also retain selections in progress.
 
-- **Mouse-Controlled P2:** With co-op enabled, double-click the right mouse button to request control of Player 2. The keyboard and unassigned controllers remain assigned to Player 1.
-
 - **Independent Exploration:** Optional support for players exploring separate rooms independently.
 
 - **Photo Pose Shortcut:** Press the bottom face button + `R1/RB` to perform a photo pose in the overworld.
