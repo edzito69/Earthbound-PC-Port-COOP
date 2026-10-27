@@ -1,6 +1,6 @@
 # EarthBound PC Port COOP - Version 3.6
 
-**Platforms:** Windows • Linux • macOS  
+**Platforms:** Windows • Linux • MACOS VERSION NOT WORKING  
 **Latest Update:** October 26, 2026  
 
 
@@ -89,8 +89,8 @@ HAVE FUN!
 | Platform | Status |
 |---|---|
 | Windows | ✅ Built, executed, and tested |
-| Linux | ⚠️ Compiled and inspected, not executed |
-| macOS | ⚠️ Compiled and inspected, not executed |
+| Linux | ⚠️ It works, but audio and effects are a little weird |
+| macOS | ⚠️ Doesn't worked yet :/ |
 
 **Important:**
 
