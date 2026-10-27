@@ -1,6 +1,7 @@
 ﻿VER. 3.5 — CORREÇÕES
 
-OIII COLOQUE SUA ROM NA  "Coloque sua Rom aqui" (uau!!!)
+OIII COLOQUE SUA ROM NA  "Coloque sua Room aqui" (uau!!!)
+
 VER. 3.5 — CORREÇÕES (computadores)
 Windows, Linux e macOS.
 O botão inferior (X do PlayStation/A do Xbox/B do Switch/1 genérico) faz
