@@ -138,6 +138,6 @@ This can occasionally cause issues with rendering:
 
 These issues are related to the new independent exploration system and are still being worked on.
 
-**If you experience rendering problems, you can disable Independent Exploration in
+**If you experience rendering problems, you can disable COOP/Independent Exploration in the Gameplay Menu**
 
 Doing!
