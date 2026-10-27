@@ -11,6 +11,7 @@ Independent exploration: Optional support for players exploring separate rooms.
 Photo pose shortcut: Press the bottom face button + R1/RB to pose in the overworld.
 Support Monkey: Optional cosmetic companion for P1 under F1 → Gameplay, disabled by default and independent of the story companion.
 God Menu teleportation: Destinations include towns, pizzerias, pharmacies, weapon shops, and other establishments. Teleportation preserves inventory and story progress.
+
 Changed
 Experimental co-op is now available in every desktop edition. Enable it under F1 → Gameplay; it starts disabled.
 English is the default language for both the game and F1/F2 menus. Portuguese remains selectable.
@@ -23,6 +24,7 @@ Battle reward deposits credit both players with the same amount.
 Story progress is shared, allowing either player to continue without repeating completed quest dialogue.
 In co-op, a defeated player returns to the overworld with 15% HP while the other can continue fighting. Single-player follows the Gameplay preference.
 Gameplay and co-op settings apply immediately without requiring Apply.
+
 Controls
 P1: Press T on the keyboard or L3 to teleport to P2.
 P2: Press L3 to teleport to P1.
@@ -40,6 +42,7 @@ Windows builds were executed and tested.
 Linux and macOS builds were compiled and inspected, but not executed on those systems.
 Co-op remains experimental.
 The entire campaign has not been totally validated.
+
 SOME BUGS RELATED!!
 Use save states, rewinding and quick saves regularly!!
 There's a new autosave feature, but the windows is kinda broken right now, but seems to work ;)
