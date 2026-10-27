@@ -1,73 +1,182 @@
-﻿VER. 3.5 — see maintenance notes above.
-EARTHBOUND Ver.3.5 COOP — EXPERIMENTAL
-Version by Edzito, with much love.
+EARTHBOUND PC — Version 3.5
 
-Place your own unmodified EarthBound (USA) .sfc/.smc ROM in "Coloque sua Room
-aqui", beside the system folders. Accepted: 3 MiB, optionally with a 512-byte
-copier header. No ROM is supplied, downloaded or modified. Keep adaptacao.ebpatch.
-Windows: Port Windows/EarthBound PC COOP 3.5.exe. Linux: Port Linux/earthbound-pc,
-with lib beside it (x64, glibc 2.36+). Mac: Port Mac/EarthBound PC COOP.app,
-macOS 11+ for Intel and Apple Silicon. The local Mac application is not notarized;
-if blocked, allow it through the system's Privacy & Security settings.
+HELLO!! PUT YOUR ROM IN "Coloque sua Rom aqui"
 
-JOINING
-Load a game, open F1 > Gameplay > Experimental co-op, accept the warning and
-apply. It starts disabled. Press Start/Options/+/Menu on the controller intended
-for P2 and confirm. No keeps it available to P1. P1 can use keyboard/mouse and
-P2 a single controller; unassigned controllers can also operate P1.
-Mess has blue stripes, a purple cap, a photo pose on arrival and independent
-stats, HP/PP, inventory, equipment and experience, based on P1's progression.
-Joint battle cash rewards go to P1's party account; Mess's personal wallet
-remains preserved when joining and leaving shared battles.
-The story party follows P1. Both players can use personal menus/dialogues while
-the other keeps moving. Distant players get separate vertical P1/P2 panels.
-Scene transitions carry both players; finish an ongoing battle before leaving.
-Both players can trigger essential story dialogue and events.
+VER. 3.5 — DESKTOP MAINTENANCE
+Windows, Linux and macOS; the Android APK is unchanged.
+The physical south button runs in the world and confirms native menus/text.
+West interacts once per press. Kit 3 is Ultimate, with endgame equipment.
+Post-victory acceleration defaults on; 15% recovery defaults off. Free map
+without the item is disabled. God Menu unlock lasts until process exit;
+heal/revive restores the party and its overworld appearance.
+Boss-phase sprite references, per-layer horizontal/vertical background
+raster effects, PSI routing, black intertitles, camera shake restart and
+mouse battle-target selection have been corrected.
 
-BATTLES / SAVES
-Solo combat uses half the screen while the other player remains in the world.
-Approach the battling player to join; combat expands to the full screen. P1
-controls Ness, P2 controls Mess; both may command companions. Four original heroes plus Mess are supported.
-F1/F2 states, F3/F4 quicksaves and rewind restore both players together. V4 co-op
-states require this experimental build. Saves are separate from the normal port.
-Phone saves keep P1's campaign; use F1/F2 states to preserve Mess as well.
-One shared audio clock plays one priority music track at a time. Back up saves.
-Co-op cannot be disabled during a joint battle. After a disconnect, reconnect
-and press Start to resume Mess, or disable co-op outside a joint battle.
+EXPERIMENTAL CO-OP
+P2 starts with P1 equipment, two Bread rolls and one Cookie. Only the
+Bubble Monkey may accompany both players. Both players can trigger story
+dialogue/actions and command Paula/Jeff/Poo during joint battles.
+Distant exploration uses a vertical P1/P2 split. Joining combat requires
+physical contact; Waiting for next turn appears while the join is pending.
+A flash marks joining combat. P2 L3 teleports to P1; R3 cycles six saved
+clothing palettes. P2 Select leaves with a photo pose; a joint battle must
+finish first to preserve turn and party state. Stick clicks inside F1/F2
+still trigger Mr. Saturn. Mess windows use a blue tint.
+Rolling HP, protagonist identity, party rebuilding, sprite occlusion,
+independent doors/hotspots, shared music and contact snapshots were fixed.
 
-DEFAULT CONTROLS
-PS: X runs in the world and confirms native menus/text; Square interacts/confirms; Circle personal menu/back;
-Triangle HP/money. Xbox: A/X/B/Y. Switch: B/Y/A/X. Generic: 1/3/2/4.
-Running adds 23%. Disable Run to also use south for interaction/confirmation.
-F1/F2 always use south for OK and east for Back, regardless of custom bindings.
-Either stick click in F1 activates Mr. Saturn. Shoulders switch tabs.
-F1: PS/Home/Xbox; F2: Share/Create/View/Capture. L3+triggers zoom; R3 resets;
-left trigger rewinds, right trigger fast-forwards. Generic controllers use
-Back+shoulders for rewind/turbo and L3+shoulders for zoom. Back+Start opens F1.
-Keyboard: WASD/arrows, E/Enter OK, Q/Esc/Ctrl Back, Tab personal menu, Shift Run,
-M optional map, comma/period zoom, +/- turbo/rewind. F3/F4 choose quicksave slots.
-Presets/customization and illustrated guides are available in F1 and Controles.
+Windows validation uses simulated SDL controllers and native integration
+tests. Linux/macOS binaries are compiled/inspected, not executed here.
+The full campaign and every physical controller model are not validated.
+Co-op remains experimental. Keep backup copies of personal saves.
 
-This release includes the new controller layout, solid rose at Edzito's selected
-ground position right of the tree behind Ness's house, corrected dedication and
-Portuguese "Later that night..." card. Existing Android APKs are unchanged;
-there is no Android co-op build.
+Version 3.5 — October 25, 2026
 
-TESTING / EXPERIMENTAL LIMITS
-Windows tests cover two simulated SDL controllers, independent menus, both
-players' turns, five heroes, scene following, rewind, photographs and cold-start
-world/solo/shared battle states. Linux/macOS are built and inspected, not run.
-The entire campaign and all physical controller models have not been tested.
-With a full party, combat has room for one additional NPC companion; a second
-companion remains preserved in P1's party outside combat.
-This is an independent adaptation/modification, not affiliated with or endorsed
-by Nintendo. Rights remain with their respective holders. Do not share your ROM,
-personal saves or extracted game data with this folder.
-Share the distribution ZIP from dist: it excludes Source, Build, Validation,
-ROMs, saves and personal settings.
+DESKTOP CONTROLLER UPDATE
+Physical south: Run in the world / OK in native menus (PS X / Xbox A / Switch B / generic 1).
+Physical west: interact and confirm in-game (Square / X / Y / 3).
+Physical east: personal menu and back (Circle / B / A / 2).
+Physical north: party HP and money (Triangle / Y / X / 4).
+Disable Run in F1 to use the south button for interaction/confirmation.
+F1/F2 always use south for OK and east for Back, including custom bindings.
+Click either stick (L3/R3) in F1 to interact with Mr. Saturn.
+Old A/B/C presets migrate; player-customized bindings are preserved.
+The rose has solid collision and sits on the ground right of the tree behind
+Ness's house. It no longer draws over characters or the opening cinematics.
+Its final line is "Funny, I don't remember who planted this here."
+The "Later that night..." prologue card is translated in Portuguese.
+Existing Android APK files are unchanged by this desktop update.
+
+GETTING STARTED
+The original local installation opens with EarthBound PC.exe on Windows.
+Keep SDL2.dll beside the executable. It opens without a command prompt.
+
+The separate "Earthbound PC Port" folder contains Windows, Linux and macOS
+versions which require your own game ROM at every launch. Place your own
+unmodified EarthBound (USA) ROM in "Coloque sua Room aqui" beside the system
+folders. Accepted files: .sfc or .smc, 3 MiB, with or without a 512-byte copier
+header. Extract ZIP files first. Do not use an already translated ROM.
+No ROM is included or downloaded. The ROM is read without being modified.
+adaptacao.ebpatch reconstructs the required game resources in memory.
+Keep that file with each system's version.
+
+Windows 10/11 x64: open EarthBound PC.exe in Port Windows (or Port PC).
+Linux x64, glibc 2.36+: run ./earthbound-pc in Port Linux; keep lib beside it.
+If necessary, mark the program executable in its file properties.
+macOS 11+, Intel/Apple Silicon: open EarthBound PC.app in Port Mac.
+This local application is not Apple-notarized. If macOS blocks it, approve
+it through System Settings > Privacy & Security after checking its source.
+The shared ROM folder may instead be placed inside one system's folder
+when copying that version to another computer.
+
+YOUR SAVES
+Each separate port stores its settings and saves in its own Saves folder.
+It does not automatically import or overwrite the original installation.
+To continue an older game, COPY its .srm, drawer-*.ebs and slot-*.ebs files
+into the appropriate Saves folder. Keep the original files as a backup.
+Older V2 states are supported. New V3 states require version 2.5 or later.
+The original installation keeps using its previous preferences directory.
+
+MENUS AND BASIC CONTROLS
+F1: video, audio, controls, saves, chapters and optional gameplay features.
+F2: open Saves directly. Three drawers A/B/C, with 12 slots each.
+F3: choose Quicksave 1, 2, 3 or 4 to SAVE (slots 9, 10, 11 and 12).
+F4: choose one of those quicksaves to LOAD. Escape/Q/Ctrl cancels.
+The four quicksave slots are yellow. Saving plays the original photo pose
+and shutter; loading gives a short photo flash without moving the party.
+"Continue from Save State" is selected first when a valid state exists.
+The small EarthBound-style "Menu F1" box is clickable and opens the options.
+The main menu also accepts Enter to confirm and Backspace to go back.
+
+WASD/arrows: move or navigate. E: interact/confirm. Q/Esc/Ctrl: back in menus.
+Tab: Ness's menu. Shift + movement: optional Run, 23% faster.
+Comma/period: zoom out/in, from 50% to 150%. Indicator hides after 2 seconds.
+Hold +: 4x fast-forward with normal audio speed/pitch. Hold -: rewind.
+M: the game's map shortcut. With "Map without the item (M)" enabled in
+F1 > Gameplay, the map works without carrying the Town Map item.
+Areas without a native town map remain unavailable. This option defaults off.
+F5–F12 have no assigned shortcuts.
+
+MOUSE
+Hold left click in a direction to walk; click a character/object to approach
+and interact. Left click selects/confirms. Right click opens Ness's menu or
+goes back. Blank left clicks are ignored. Holding a menu selection does not
+accelerate the dialogue it opens; release and click again to advance text.
+The wheel moves through menu choices, party members and enemy targets,
+following the layout/context. It also adjusts digits when entering numbers.
+Mouse movement can be turned off in F1 > Gameplay.
+
+CONTROLLERS
+PS4, PS5, Xbox, Nintendo Switch and SDL-compatible generic controllers are
+supported. Choose presets A (Original), B (Modern) or C (Simple), or customize
+your bindings under F1 > Controls. The illustrated map follows your bindings.
+The external Controles folder also includes reference diagrams.
+F1/F2 menus retain standard navigation when gameplay buttons are customized.
+Back + Start opens F1 as an alternative to a reserved system/Home button.
+Gameplay hints show the currently assigned Run button.
+
+VIDEO, LANGUAGES AND OPTIONAL FEATURES
+1920x1080 widescreen is supported, with extra scenery at the sides.
+Choose window/fullscreen, 30/60 presentation FPS, colors, scaling and CRT
+filters in F1. Game logic remains at 60 Hz; audio has its own normal clock.
+Choose English or Brazilian Portuguese for the game, and independently
+choose the language of the F1/F2 menus. The supplied fan translation retains
+distinctive game elements such as SMAAAASH. No full human review was done.
+Text speed, Run, Where to go?, post-victory acceleration, Run visuals,
+mouse control, map access and recovery after defeat can be configured.
+Optional defeat recovery respawns the party nearby with 15% HP and temporary
+invincibility, preserving progress and spent items.
+
+CHAPTERS AND KITS
+Choose a location, then a kit, then confirm the chapter start.
+This replaces the current unsaved session; saved files are kept.
+Balanced keeps the checkpoint's equipment. Exploration uses a modestly
+lighter weapon/armor selection with extra money. Combat favors stronger
+available protection and appropriate Jeff rockets, with less money.
+Armor alternatives are restricted to equipment present in checkpoints up
+to that chapter, with bounded defense changes. Essential items and Poo's
+special equipment are preserved. The selection does not unlock later areas.
+
+VERSION 3.0 CHANGES
+- EarthBound Ver.3.0 header and a clickable Credits button in F1.
+- An inspectable rose behind Ness's house, dedicated to Amanda.
+- Clickable Menu F1 reminder; stable native mouse menus and release guards.
+- Click the volume setting to change it by 10%.
+- God Menu under Gameplay: double-click its padlock, read the warning and
+  choose Yes. Infinite party HP/PP, healing/removing ailments, character
+  weapons and armor, Jeff tools, food, all items, noclip and +5,000 money.
+  Items require a free inventory space. Cheats can break progression; keep
+  a separate save. All cheats start disabled when reopening the application.
+- Android ARM64 APK, own-ROM import, touch gestures and portrait/landscape.
+- Previous Summers stairs, chapter distortion, armor and save fixes retained.
+
+ANDROID
+Install "Android apk/EarthBound Ver.3.0.apk" on Android 8.0+ ARM64.
+The default APK contains no ROM. At first launch choose your own original
+EarthBound (USA) .sfc/.smc, 3 MiB with or without a 512-byte copier header.
+The original is not modified. The app keeps a private copy, requests no
+broad storage access or internet permission, and reconstructs assets locally.
+Use the untranslated USA ROM; the game language is selected in F1.
+
+Touch/drag to walk, drag farther to Run, tap characters/objects to interact.
+Two-finger tap: back. Pinch: zoom 50-150%. Small Mr. Saturn top-left: F1.
+Translucent Menu/Map buttons are configurable in the Android-only F1 tab.
+Choose auto/portrait/landscape, button size/opacity, pinch and Run distance.
+Portrait fills the screen with its own world framing and separate native UI.
+
+Optional personal APK: put exactly one compatible ROM in
+"Android apk/Coloque sua Room aqui", then run "Criar APK pessoal.cmd" from
+the intact Windows project. It creates "EarthBound Ver.3.0 - pessoal.apk".
+The standard APK instead imports the ROM on-device; no rebuild is needed.
+Uninstalling removes the app's private ROM, settings and saves.
+APK signature/alignment/native libraries were checked and gestures simulated;
+this build has NOT been run on a physical Android device.
+
+Version 2.5 fixes are retained: battle-state cold loads, consistent camera
+shutter, 36 slots, four quicksaves, 400x225 thumbnails and improved old previews.
 
 DEDICATION AND THANKS
-
 Dedicated to everyone who researched, preserved, translated and helped make
 EarthBound accessible on new computers. Thank you to the players and fan
 communities for their care, documentation, tools and translations.

@@ -1,0 +1,14 @@
+[
+  {
+    "test": "missing-ROM",
+    "result": "PASS"
+  },
+  {
+    "test": "invalid-ROM",
+    "result": "PASS"
+  },
+  {
+    "test": "F1-COOP-controls-warning-join-and-existing-menus",
+    "result": "PASS"
+  }
+]

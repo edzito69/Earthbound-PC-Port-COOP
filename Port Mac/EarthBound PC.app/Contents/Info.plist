@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>EarthBound PC</string>
+	<key>CFBundleExecutable</key>
+	<string>earthbound-pc</string>
+	<key>CFBundleIconFile</key>
+	<string>EarthBound.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.earthboundpc.port</string>
+	<key>CFBundleName</key>
+	<string>EarthBound PC</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.6</string>
+	<key>CFBundleVersion</key>
+	<string>36</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>11.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSSupportsAutomaticGraphicsSwitching</key>
+	<true/>
+</dict>
+</plist>

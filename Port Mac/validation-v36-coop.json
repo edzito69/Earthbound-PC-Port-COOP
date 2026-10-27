@@ -1,0 +1,36 @@
+[
+  {
+    "test": "coop-simulation",
+    "result": "PASS"
+  },
+  {
+    "test": "cold-slot-0",
+    "result": "PASS",
+    "visible_colors": 39,
+    "visible_pixels": 362220
+  },
+  {
+    "test": "cold-slot-1",
+    "result": "PASS",
+    "visible_colors": 32,
+    "visible_pixels": 446765
+  },
+  {
+    "test": "cold-slot-2",
+    "result": "PASS",
+    "visible_colors": 33,
+    "visible_pixels": 524522
+  },
+  {
+    "test": "cold-slot-3",
+    "result": "PASS",
+    "visible_colors": 59,
+    "visible_pixels": 415467
+  },
+  {
+    "test": "cold-slot-4",
+    "result": "PASS",
+    "visible_colors": 62,
+    "visible_pixels": 430406
+  }
+]

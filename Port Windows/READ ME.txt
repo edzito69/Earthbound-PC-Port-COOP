@@ -1,0 +1,190 @@
+﻿VER. 3.5 — CORREÇÕES
+VER. 3.5 — CORREÇÕES (computadores)
+Windows, Linux e macOS.
+
+O botão inferior (X do PlayStation/A do Xbox/B do Switch/1 genérico) faz
+Corrida no cenário e OK em menus e diálogos. Quadrado/X/Y/3 interage com
+um acionamento por toque, sem repetir inspeções ao segurar.
+O kit 3, Supremo, oferece equipamentos de fim de jogo para cada herói.
+Acelerar após vencer começa ligado; recuperar derrota com 15% começa
+desligado. Mapa sem o item foi desativado. O God Menu mantém o desbloqueio
+durante a sessão e Curar/reviver restaura vida, PP, estados e visuais.
+
+Correções de referências de sprites nas transições de Porky/Giygas,
+deformações de fundo por camada/eixo, separação dos efeitos PSI, fundos
+pretos com texto e proteção contra reinício indevido do tremor da câmera.
+O mouse usa posições em pixels ao selecionar e confirmar alvos de batalha.
+
+COOP EXPERIMENTAL
+As versões cooperativas estão em Earthbound PC + COOP (Experimental).
+P2 começa com equipamentos de P1, duas unidades de pão e um biscoito.
+A party principal segue P1; apenas o macaquinho pode acompanhar ambos.
+Ambos podem realizar diálogos e ações de história e comandar Paula, Jeff
+e Poo nos turnos conjuntos. Ness e Mess mantêm seus turnos individuais.
+Ao explorar longe, duas câmeras dividem a tela verticalmente, com P1/P2.
+É necessário encostar no participante da batalha para entrar; se o turno
+ainda não permitir, aparece Esperando próximo turno. Um flash marca a união.
+L3 de P2: teleportar para P1. R3 de P2: alternar seis cores das roupas,
+guardadas no save state. Select de P2: pose e saída; em batalha conjunta,
+a saída aguarda o fim da luta para preservar os turnos e a party.
+As cores são azul/roxo, laranja/turquesa, creme/verde, rosa/grafite,
+menta/vermelho e dourado/ameixa. Nos menus F1/F2 os cliques dos analógicos
+continuam acionando Mr. Saturn. Janelas de Mess têm um tom azulado.
+Correções de vida rolante de Mess, identidade do protagonista, entidades
+duplicadas, sobreposição com cenário, portas/hotspots, música e contato.
+
+VALIDAÇÃO
+Testes automatizados em Windows usam controles SDL simulados, estados a
+frio de batalhas, capítulos/kits, turnos conjuntos e transições finais.
+Linux e macOS: compilação e inspeção dos binários; não execução local.
+A campanha inteira e todos os modelos físicos não foram testados.
+O modo COOP continua experimental. Preserve cópias de segurança dos saves.
+
+VER. 3.5 — DESKTOP MAINTENANCE
+Windows, Linux and macOS.
+The physical south button runs in the world and confirms native menus/text.
+West interacts once per press. Kit 3 is Ultimate, with endgame equipment.
+Post-victory acceleration defaults on; 15% recovery defaults off. Free map
+without the item is disabled. God Menu unlock lasts until process exit;
+heal/revive restores the party and its overworld appearance.
+Boss-phase sprite references, per-layer horizontal/vertical background
+raster effects, PSI routing, black intertitles, camera shake restart and
+mouse battle-target selection have been corrected.
+
+EXPERIMENTAL CO-OP
+P2 starts with P1 equipment, two Bread rolls and one Cookie. Only the
+Bubble Monkey may accompany both players. Both players can trigger story
+dialogue/actions and command Paula/Jeff/Poo during joint battles.
+Distant exploration uses a vertical P1/P2 split. Joining combat requires
+physical contact; Waiting for next turn appears while the join is pending.
+A flash marks joining combat. P2 L3 teleports to P1; R3 cycles six saved
+clothing palettes. P2 Select leaves with a photo pose; a joint battle must
+finish first to preserve turn and party state. Stick clicks inside F1/F2
+still trigger Mr. Saturn. Mess windows use a blue tint.
+Rolling HP, protagonist identity, party rebuilding, sprite occlusion,
+independent doors/hotspots, shared music and contact snapshots were fixed.
+
+Windows validation uses simulated SDL controllers and native integration
+tests. Linux/macOS binaries are compiled/inspected, not executed here.
+The full campaign and every physical controller model are not validated.
+Co-op remains experimental. Keep backup copies of personal saves.
+
+EARTHBOUND PC PORT — versão por Edzito, com muito amor.
+Versão 3.5 — 25/10/2026
+
+COMO JOGAR
+1. Coloque sua própria ROM original EarthBound (USA), sem tradução aplicada,
+   na pasta "Coloque sua Room aqui", junto das três pastas dos sistemas.
+   São aceitos arquivos .sfc ou .smc de 3 MiB, com ou sem cabeçalho de 512 bytes.
+   Não é necessário renomear o arquivo. Arquivos ZIP não são lidos diretamente.
+2. Windows 10/11 x64: abra o .exe na pasta Port Windows (ou Port PC). Mantenha a SDL2.dll junto.
+   Linux x64 (glibc 2.36+): abra "Port Linux/earthbound-pc"; se necessário,
+   marque-o como executável nas propriedades. Mantenha a pasta lib junto dele.
+   macOS 11+, Intel/Apple Silicon: abra "Port Mac/EarthBound PC.app".
+   O aplicativo local não foi notarizado pela Apple; se bloqueado, autorize
+   a abertura em Ajustes do Sistema > Privacidade e Segurança.
+3. Mantenha adaptacao.ebpatch junto da versão correspondente. Cada abertura
+   confere a ROM e reconstrói os recursos em memória. A ROM não é modificada.
+   Uma ROM própria continua necessária em todas as aberturas.
+
+As pastas dos sistemas usam sua própria subpasta Saves para preferências,
+estados e salvamentos normais. Este pacote não importa nem altera partidas
+da instalação anterior automaticamente. Para continuar uma partida antiga,
+copie seus arquivos drawer-*.ebs, slot-*.ebs e .srm para a nova pasta Saves,
+mantendo uma cópia dos originais. A versão anterior não lê o novo formato V3.
+Também é possível colocar "Coloque sua Room aqui" dentro de uma única pasta
+de sistema, caso você queira copiar somente aquela versão para outro lugar.
+
+ATALHOS
+Controle (PS): X faz Corrida no cenário e OK nos menus/diálogos; Quadrado interage/aceita;
+Bolinha abre o menu pessoal/volta; Triângulo mostra vida e dinheiro.
+Xbox/Switch/genérico usam as mesmas posições. F1/F2: inferior aceita e direita
+volta. L3/R3 no F1 faz o Mr. Saturn pular. Personalizações são preservadas.
+F1: opções de vídeo, áudio, idioma, controles, saves, capítulos e gameplay.
+F2: saves; três gavetas A/B/C, com 12 espaços em cada uma.
+F3: escolher Quicksave 1, 2, 3 ou 4 para salvar (slots 9, 10, 11 e 12).
+F4: escolher qual desses quicksaves carregar. Escape/Ctrl/Q cancela.
+Os quatro quicksaves ficam destacados em amarelo. Mouse e controle funcionam.
+WASD/setas: mover/navegar. E/Enter: aceitar; Q/Esc/Ctrl: voltar nos menus.
+Tab: menu do Ness. Shift + movimento: Corrida (+23%, opcional no F1).
+Vírgula/ponto: zoom 50–150%; a porcentagem desaparece após dois segundos.
+Segurar +: acelerar 4× com áudio no relógio normal. Segurar -: rewind.
+F5–F12: sem atalhos. Comandos personalizados e presets no F1 > Controles.
+Os guias ilustrados estão no F1 e na pasta Controles.
+
+NOVIDADES DESTA VERSÃO
+- Cabeçalho EarthBound Ver.3.5 e botão Agradecimentos no menu F1.
+- Rosa inspecionável atrás da casa do Ness, com uma dedicatória para Amanda.
+- "Menu F1" do menu principal agora é clicável.
+- God Menu em Gameplay: dê dois cliques no cadeado e confirme o aviso.
+  HP/PP infinitos, cura da equipe, armas, roupas, comidas, itens,
+  atravessar paredes e adicionar dinheiro. Cheats podem quebrar a partida;
+  salve antes. Os cheats ficam desligados a cada abertura do aplicativo.
+- Clique de menu não acelera o diálogo seguinte enquanto estiver segurado.
+  Para voltar nos menus nativos, use o botão direito; clique em área vazia
+  não cancela mais. Scroll segue as linhas/colunas do menu original.
+- Volume no F1 varia em passos de 10% ao clicar.
+- Correção das escadas de praia em Summers, inclusive ao jogar pelo mouse.
+- Capítulos limpam distorção de batalha e tarefas antigas de movimento.
+- Scroll percorre opções, personagens e inimigos conforme o contexto.
+- Enter/Backspace confirmam/voltam no Menu Principal; lembrete "Menu F1".
+- Mapa sem o item (M): opção desligada por padrão no F1 > Gameplay,
+  respeitando os locais que possuem mapa no jogo original.
+- Armaduras dos kits ajustadas com limites de defesa e progresso do capítulo.
+  Itens essenciais e equipamento especial de Poo preservados.
+- README completo em inglês: READ ME - English.txt.
+- Carregamento a frio de estados de batalha corrigido; formato antigo V2 aceito.
+- Miniaturas novas em 400×225, com interpolação na prévia do menu principal.
+  Prévias antigas são redesenhadas a partir do estado sem regravar o arquivo.
+- Som de fotografia isolado dos instrumentos da música atual.
+- 36 estados no total e seletores de quatro quicksaves no F3/F4.
+- “Continuar do Save State” é a opção principal quando existe um estado válido.
+
+DEDICATÓRIA E AGRADECIMENTOS
+Esta adaptação é dedicada às pessoas que estudaram, preservaram, traduziram
+e tornaram possível reencontrar EarthBound em novos computadores.
+Obrigado à Nintendo, a Shigesato Itoi, à APE, à HAL Laboratory e às equipes
+originais pela obra. Obrigado aos jogadores e às comunidades pelo carinho,
+pesquisa, documentação, ferramentas e traduções.
+
+Base nativa em C: Brian Pugh e colaboradores de BrianPugh/earthbound.
+https://github.com/BrianPugh/earthbound
+Revisão utilizada: a2cf5c327d367d90440c5768713056462b0c4d9e.
+Áudio SPC700/DSP: autores e colaboradores de LakeSnes.
+Janela, vídeo, áudio e controles: Sam Lantinga e colaboradores de SDL2.
+Compressão tamp: Brian Pugh e colaboradores, conforme a licença incluída.
+Incorporação de dados na compilação privada: Dale Weiler/incbin.
+Pontos de campanha: coleção pública de partidas FantasyAnime e seus autores.
+https://fantasyanime.com/legacy/earthb_saves.htm
+Bibliotecas SDL2 Linux/macOS: provenientes dos pacotes Phase Distorter 0.5
+de TheRunaway5. O executável de jogo desse projeto não foi reutilizado.
+Ferramentas de construção: Zig/Clang, Python, CMake, Ninja e ebtools.
+Adaptação de computador, menus e ajustes: Edzito, com assistência de Codex.
+
+EARTHBOUND BRASIL 1.0 — tradução de 04/04/2015 fornecida pelo usuário
+Projeto: Alex Foffano e Jared Morgan.
+Tradução/revisão/gráficos: Alex Foffano; hacking/gráficos/revisão: Jared Morgan.
+Tradução: Claus “Set” Martins, Flicky, Gustavo Diógenes (@TesauroRaptor),
+Pedro (Draco), Thiago Cianci, Vanessa e Vinicius.
+Ajuda: H.S, JeffMan, Mr. Tenda, Mr. Accident, Tomato e ShadowOne333.
+Agradecimentos: Ambrey, Carlos Almeida, Claus, Danilo, Hsing Hui Lee,
+João de Araujo, Mukuro, Porter, Rachel, Régis Sudo, Ruby, Rydel, Sadie,
+Thiago Schreiner, starmen.net, romhackers.org e romhacking.trd.br.
+Os créditos e termos originais completos acompanham a pasta licenses.
+
+SOBRE ESTE PACOTE
+Adaptação e modificação não oficial para uso pessoal em computador.
+Não é um produto oficial, afiliado ou aprovado pela Nintendo.
+Nenhuma ROM do jogo acompanha esta pasta; não há download de ROM pelo programa.
+É necessário fornecer uma cópia própria compatível. Nomes, personagens,
+imagens, músicas e marcas continuam pertencendo aos respectivos titulares.
+Créditos e agradecimentos não substituem autorização dos autores.
+A tradução EarthBound Brasil tem condições próprias de redistribuição;
+consulte EarthBoundBrasil-creditos.txt antes de compartilhar a adaptação.
+Esta pasta não concede permissão para redistribuir o jogo, a tradução ou
+outros materiais de terceiros, nem representa uma garantia jurídica.
+
+VALIDAÇÃO
+Windows: abertura, prólogo, controles virtuais, estados, batalhas e áudio testados.
+Linux/macOS: executáveis compilados e inspecionados; não executados nesta máquina.
+Uma campanha inteira e todos os controles físicos não foram testados.

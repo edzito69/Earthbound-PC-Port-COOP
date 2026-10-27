@@ -1,0 +1,229 @@
+EARTHBOUND PC COOP — VERSÃO 3.5
+VER. 3.5 — Consulte as notas de manutenção acima.
+
+EARTHBOUND Ver. 3.5 COOP — EXPERIMENTAL
+
+Versão desenvolvida por Edzito, com muito amor.
+
+INSTALAÇÃO
+Coloque sua própria ROM original e não modificada de EarthBound (USA), no formato .sfc ou .smc, na pasta "Coloque sua Room aqui", localizada ao lado das pastas dos sistemas operacionais.
+
+São aceitas ROMs de 3 MiB, opcionalmente com um cabeçalho de cópia de 512 bytes.
+
+Nenhuma ROM é fornecida, baixada ou modificada pelo projeto.
+
+Mantenha o arquivo adaptacao.ebpatch.
+
+Windows: Port Windows/EarthBound PC COOP 3.5.exe
+
+Linux: Port Linux/earthbound-pc, com a pasta lib ao lado do executável (x64, glibc 2.36 ou superior).
+
+Mac: Port Mac/EarthBound PC COOP.app, compatível com macOS 11 ou superior, para processadores Intel e Apple Silicon.
+
+O aplicativo para Mac não possui notarização da Apple. Caso seja bloqueado, permita sua execução nas configurações de Privacidade e Segurança do sistema.
+COMO ENTRAR NO MODO COOP
+Carregue um jogo, abra F1 > Gameplay > Experimental co-op, aceite o aviso e aplique a configuração.
+
+
+O MODO COOPERATIVO COMEÇA DESATIVADO POR PADRÃO.
+
+Pressione Start/Options/+/Menu no controle destinado ao segundo jogador (P2) e confirme sua entrada.
+
+Selecionar "Não" mantém o controle disponível para o primeiro jogador (P1).
+
+O P1 pode utilizar teclado e mouse enquanto o P2 utiliza um controle. Controles que não estiverem atribuídos ao P2 também poderão operar o P1.
+
+Conheça Mess!
+Mess possui listras azuis, um boné roxo, uma pose especial para fotografias ao aparecer e atributos independentes, incluindo:
+- Estatísticas próprias;
+- HP e PP individuais;
+- Inventário e equipamentos;
+- Experiência e progressão baseadas no progresso do P1.
+As recompensas em dinheiro das batalhas conjuntas são destinadas à conta do grupo do P1.
+
+O dinheiro pessoal de Mess é preservado ao entrar e sair de batalhas compartilhadas.
+
+O grupo principal da história acompanha o P1.
+
+Ambos os jogadores podem acessar seus próprios menus e diálogos enquanto o outro continua se movimentando livremente.
+
+Quando os jogadores se afastam, a tela é dividida verticalmente em dois painéis independentes, P1 e P2.
+
+As transições entre cenários transportam ambos os jogadores. Uma batalha em andamento deve ser concluída antes de sair do cenário.
+
+Ambos os jogadores podem ativar diálogos e eventos essenciais para o progresso da história.
+BATALHAS E SALVAMENTOS
+Durante combates individuais, a batalha ocupa metade da tela, enquanto o outro jogador permanece explorando o mundo.
+
+Para participar da batalha, basta se aproximar do jogador que está lutando. Nesse momento, o combate passa a ocupar a tela inteira.
+
+O P1 controla Ness e o P2 controla Mess. Ambos também podem comandar os companheiros do grupo.
+
+O sistema suporta os quatro heróis originais mais Mess, totalizando cinco personagens.
+
+Os estados de salvamento de F1/F2, os salvamentos rápidos de F3/F4 e a função de rewind restauram os dois jogadores simultaneamente.
+
+Os estados de salvamento cooperativos V4 exigem esta versão experimental.
+
+Os arquivos de salvamento são separados daqueles utilizados pelo port convencional.
+
+Os salvamentos realizados pelos telefones do jogo preservam a campanha do P1. Para preservar Mess também, utilize os save states de F1/F2.
+
+O sistema utiliza um único relógio de áudio compartilhado, reproduzindo uma faixa musical prioritária por vez.
+
+Faça cópias de segurança dos seus salvamentos.
+
+O modo cooperativo não pode ser desativado durante uma batalha conjunta.
+
+Após a desconexão de um controle, reconecte-o e pressione Start para retomar o controle de Mess. Alternativamente, desative o modo cooperativo fora de uma batalha conjunta.
+
+CONTROLES PADRÃO
+
+Controles PlayStation, Xbox, Switch e genéricos
+Função	PlayStation	Xbox	Switch	Genérico
+Correr / Confirmar	X	A	B	1
+Interagir / Confirmar	Quadrado	X	Y	3
+Menu pessoal / Voltar	Círculo	B	A	2
+HP / Dinheiro	Triângulo	Y	X	4
+
+O botão X do PlayStation permite correr pelo mundo e confirmar menus e textos nativos.
+
+A corrida aumenta a velocidade de movimentação em 23%.
+
+Desativar a opção Run permite utilizar também o botão inferior para interagir e confirmar ações.
+
+Nos menus F1/F2, o botão inferior sempre confirma e o botão direito sempre retorna, independentemente das configurações personalizadas.
+
+Pressionar qualquer um dos analógicos (L3 ou R3) dentro do menu F1 ativa o Mr. Saturn.
+
+Os botões superiores (shoulders) alternam entre abas.
+Atalhos adicionais dos controles
+Menu F1: PS/Home/Xbox.
+
+Menu F2: Share/Create/View/Capture.
+
+Zoom: L3 + gatilhos.
+
+Redefinir zoom: R3.
+
+Rewind: Gatilho esquerdo.
+
+Aceleração: Gatilho direito.
+
+Nos controles genéricos:
+- Back + botões superiores: rewind e aceleração.
+- L3 + botões superiores: zoom.
+- Back + Start: abre o menu F1.
+Teclado e mouse
+Tecla	Função
+WASD / Setas	Movimentação
+E / Enter	Confirmar / Interagir
+Q / Esc / Ctrl	Voltar
+Tab	Menu pessoal
+Shift	Correr
+M	Mapa opcional
+Vírgula / Ponto	Zoom
++ / -	Aceleração / Rewind
+F3 / F4	Seleção de slots de salvamento rápido
+
+Configurações predefinidas, personalização dos controles e guias ilustrados estão disponíveis no menu F1 e na seção Controles.
+TESTES E LIMITAÇÕES EXPERIMENTAIS
+Os testes realizados no Windows abrangem:
+- Dois controles SDL simulados;
+- Menus independentes;
+- Turnos de ambos os jogadores;
+- Cinco personagens em batalha;
+- Acompanhamento entre cenários;
+- Sistema de rewind;
+- Fotografias;
+- Estados de salvamento carregados desde a inicialização, incluindo exploração do mundo, batalhas individuais e batalhas compartilhadas.
+As versões para Linux e macOS foram compiladas e inspecionadas, mas não foram executadas nesses sistemas.
+
+A campanha completa e todos os modelos de controles físicos ainda não foram testados.
+
+Com o grupo principal completo, o sistema de combate possui espaço para apenas um NPC acompanhante adicional.
+
+Um segundo acompanhante permanece preservado no grupo do P1 fora das batalhas.
+
+Este projeto é uma adaptação/modificação independente, sem afiliação ou endosso da Nintendo.
+
+Todos os direitos pertencem aos seus respectivos titulares.
+
+Não compartilhe sua ROM, salvamentos pessoais ou dados extraídos do jogo junto à pasta do projeto.
+
+Compartilhe o arquivo ZIP de distribuição localizado em dist.
+
+Esse pacote exclui as pastas Source, Build, Validation, ROMs, arquivos de salvamento e configurações pessoais.
+DEDICATÓRIA E AGRADECIMENTOS
+Dedicado a todas as pessoas que pesquisaram, preservaram, traduziram e contribuíram para tornar EarthBound acessível em computadores modernos.
+
+Agradecimentos aos jogadores e às comunidades de fãs pelo cuidado, documentação, ferramentas e traduções.
+
+Agradecimentos à Nintendo, Shigesato Itoi, APE, HAL Laboratory e às equipes originais de desenvolvimento pela criação de EarthBound.
+Tecnologias, repositórios e contribuições
+Base nativa em C: Brian Pugh e colaboradores do repositório BrianPugh/earthbound.
+
+https://github.com/BrianPugh/earthbound
+
+Revisão: a2cf5c327d367d90440c5768713056462b0c4d9e
+
+Áudio SPC700/DSP: angelo_wf e colaboradores do LakeSnes (MIT).
+
+Janelas, gráficos, áudio e controles: Sam Lantinga e colaboradores do SDL2.
+
+Compressão tamp: Brian Pugh e colaboradores (Apache-2.0).
+
+Incorporação de dados em builds privadas: Dale Weiler/incbin.
+
+Pontos de salvamento da campanha: coleção pública de salvamentos do FantasyAnime e seus autores.
+
+https://fantasyanime.com/legacy/earthb_saves.htm
+
+Bibliotecas SDL para Linux/macOS: obtidas dos pacotes Phase Distorter 0.5, de TheRunaway5. O executável do jogo não foi reutilizado.
+
+Ferramentas de compilação: Zig/Clang, Python, CMake, Ninja, ebtools, Android NDK, ferramentas de compilação Android e Eclipse Temurin OpenJDK (Adoptium).
+
+Adaptação para computadores, menus e ajustes: Edzito, com assistência do Codex.
+EARTHBOUND BRASIL 1.0 — 4 DE ABRIL DE 2015
+Tradução fornecida pelo usuário.
+
+Projeto: Alex Foffano e Jared Morgan.
+
+Tradução, revisão e gráficos: Alex Foffano.
+
+Hacking, gráficos e revisão: Jared Morgan.
+
+Tradutores: Claus "Set" Martins, Flicky, Gustavo Diógenes (@TesauroRaptor), Pedro (Draco), Thiago Cianci, Vanessa e Vinicius.
+
+Colaboração: H.S, JeffMan, Mr. Tenda, Mr. Accident, Tomato e ShadowOne333.
+
+Agradecimentos especiais: Ambrey, Carlos Almeida, Claus, Danilo, Hsing Hui Lee, João de Araujo, Mukuro, Porter, Rachel, Régis Sudo, Ruby, Rydel, Sadie, Thiago Schreiner, starmen.net, romhackers.org e romhacking.trd.br.
+
+Consulte a pasta licenses para acessar os créditos completos originais e os termos de utilização.
+SOBRE ESTA ADAPTAÇÃO
+Esta é uma adaptação/modificação não oficial para computadores, destinada ao uso pessoal.
+
+Este projeto NÃO é um produto oficial da Nintendo e não possui qualquer afiliação ou endosso da empresa.
+
+Os nomes, personagens, imagens, músicas e marcas comerciais do jogo continuam pertencendo aos seus respectivos titulares.
+
+A atribuição de créditos não substitui a necessidade de autorização.
+
+A tradução EarthBound Brasil possui suas próprias condições de redistribuição. Leia o arquivo licenses/EarthBoundBrasil-creditos.txt antes de compartilhar esta adaptação.
+
+Este pacote não concede permissão para redistribuir o jogo, a tradução ou quaisquer outros materiais de terceiros, nem oferece garantia jurídica.
+VALIDAÇÃO
+Windows: foram testados a inicialização, o prólogo, os salvamentos, as batalhas, o áudio e os controles virtuais.
+
+Linux/macOS: as versões foram compiladas e inspecionadas, mas não foram executadas nesses sistemas nesta máquina.
+
+Uma campanha completa, do início ao fim, ainda não foi testada.
+
+Nem todos os modelos de controles físicos foram verificados.
+
+
+Obrigado a todos que estiverem dispostos a testar este projeto experimental, relatar bugs, compartilhar suas opiniões e ajudar a melhorar a experiência.
+
+Este projeto foi feito com muito amor por EarthBound e sua incrível comunidade.
+
+ass. Edzito

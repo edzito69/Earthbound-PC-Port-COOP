@@ -1,0 +1,3 @@
+﻿Coloque aqui sua própria ROM EarthBound (USA) original em .sfc ou .smc.
+O arquivo é apenas lido; nenhuma ROM é fornecida ou baixada pelo port.
+Compatível: 3 MiB, com ou sem cabeçalho de 512 bytes. Não use a ROM já traduzida.

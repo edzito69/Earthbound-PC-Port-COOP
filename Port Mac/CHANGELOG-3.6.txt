@@ -1,0 +1,86 @@
+ATUALIZAÇÃO DE 26/10/2026 — Windows, Linux e macOS
+- Inglês como idioma inicial do jogo e dos menus F1/F2; português selecionável.
+- F1/F2 > Saves: salvamento automático separado, por gaveta, ao mudar de cidade,
+  atravessar portas e concluir vitórias. Aguarda o fim das transições.
+- Batalhas conjuntas: menus nativos simultâneos de P1 e Mess, lado a lado.
+  As ações só são executadas quando os dois terminam a seleção. Medidores,
+  alvos, itens, regras de turnos e estados salvos permanecem nativos.
+- COOP ligado: dois cliques rápidos com o botão direito perguntam se o mouse
+  controlará P2. Ao aceitar, teclado/controles não atribuídos ficam com P1.
+- Pergunta de entrada aparece sobre a partida, sem abrir F1; ambos fazem a
+  pose de fotografia, com efeito alegre e preservação da música.
+- Botão inferior + R1/RB: pose no cenário. Opção de explorar salas separadamente.
+- Destinatário do outro jogador no menu Dar; nome próprio nos medidores.
+- Kits Balanceado/Exploração mais fracos e com espaço livre para itens.
+- Macaco de suporte com variações nativas de movimento e prioridade de terreno.
+- Câmera ignora sprites removidos; validação do tremor de Lost Underworld.
+- Aviso de porta durante batalha deixa de gerar diálogo bloqueante em loop.
+- Ordenação visual dos jogadores por posição no chão.
+- Read Mes personalizados em português e inglês preservados; Android intacto.
+
+EARTHBOUND PC — Ver.3.6
+25/10/2026 — Windows, Linux e macOS
+
+O mesmo modo COOP experimental agora está disponível em todas as versões
+para computador. Ele começa desligado e pode ser habilitado em F1 > Gameplay.
+O Android permanece na versão anterior, sem alterações nesta entrega.
+
+CORREÇÕES E CONTROLES
+- Proteção da música compartilhada ao criar Mess e alternar os jogadores.
+- Revisão da sincronização de inimigos e da composição dos sprites em COOP.
+- Janela de batalha posicionada conforme o lado do jogador no cenário.
+- Revisão dos mostradores de HP/PP de Ness e Mess.
+- Select de P2 serve para sair, sem abrir F2 ao soltar.
+- P1: T no teclado ou clique em L3 para ir a P2. P2: L3 para ir a P1.
+  O teleporte aguarda um momento seguro, fora de batalhas e diálogos.
+  L3 com gatilhos continua reservado ao zoom.
+- P2: R3 alterna as seis cores. Os pijamas acompanham o visual de Ness.
+- Rosa com cores próprias, colisão no mundo e diálogo em etapas.
+- Mess mantém equipamentos equivalentes aos de P1. Seu inventário recebe
+  uma cópia de metade das comidas/itens de cura do personagem principal
+  de P1: um a cada dois itens elegíveis, arredondando para baixo, até caber.
+  Os itens do jogador 1 permanecem intactos.
+- F1 > Gameplay: Macaco de Suporte, acompanhante puramente visual de P1,
+  desligado por padrão e independente do macaco da história.
+- Aquisições de itens comuns são compartilhadas entre os jogadores. Itens de
+  missão não são duplicados; transferências internas não geram novas cópias.
+  Se o inventário do outro jogador estiver cheio, a cópia vai para o Escargo.
+- Depósitos de recompensa das batalhas são creditados no mesmo valor aos dois.
+- Progresso de eventos compartilhado e limpeza do bloqueio de portas após
+  acompanhar o outro jogador; ambos podem continuar a história.
+- No COOP, um jogador derrotado volta ao cenário com 15% de vida, enquanto
+  o outro continua a luta. No modo individual vale a preferência de Gameplay.
+- Triângulo inclui HP/PP junto do dinheiro; alterações de Gameplay/COOP no
+  F1 são aplicadas imediatamente, sem precisar clicar em Aplicar.
+- God Menu: Teleporte com cidades, pizzarias, farmácias, lojas de armas e
+  outros estabelecimentos. Preserva inventário e progresso da história.
+
+SALVAMENTOS E DISTRIBUIÇÃO
+ROMs, saves e preferências pessoais não são incluídos nos ZIPs.
+Os saves existentes não são sobrescritos pela atualização.
+Use os estados F1/F2 para guardar os dois jogadores. Os saves originais
+de telefone continuam guardando a campanha do jogador 1.
+O COOP continua experimental. A campanha inteira não foi validada.
+Linux/macOS são compilados e inspecionados; execução testada em Windows.
+
+ENGLISH
+The same experimental co-op is now included in all desktop editions,
+disabled by default. Enable it in F1 > Gameplay. Android is unchanged.
+This update revises shared music, enemy synchronization, sprite composition,
+battle panel placement, HP/PP windows, rose collision/color and dialogue.
+P1: T or L3 to reach P2; P2: L3 to reach P1, R3 to cycle six clothing colors,
+Select to leave without opening Saves. Teleporting requires a safe world
+state. Stick-plus-trigger zoom remains available.
+Mess copies P1 equipment and every second eligible food/healing item in
+P1's active leader inventory, limited by available space. P1 loses no items.
+Support Monkey is an optional cosmetic follower, off by default, independent
+of the story companion. Existing personal saves/ROMs/Android files are kept.
+Co-op remains experimental; full campaign completion is not validated.
+Windows is exercised locally; Linux/macOS are built and inspected only.
+Normal item pickups are mirrored, excluding quest items and internal transfers.
+Overflow copies go to Escargo. Battle reward deposits credit both accounts.
+Story flags and door transitions are shared. In co-op, defeated players recover
+outside combat with 15% HP while the other continues fighting. Triangle shows
+HP/PP and money. Gameplay/co-op preferences apply immediately. The God Menu
+now offers teleport destinations for towns and several kinds of shops.
+The existing Portuguese and English readmes are preserved without rewriting.

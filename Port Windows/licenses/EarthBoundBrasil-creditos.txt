@@ -1,0 +1,136 @@
+﻿
+                       EarthBound/Mother 2 Tradução de Fãs
+                           Português Brasileiro v 1.0
+                             Lançado 04 Abril 2015
+
+Esta é uma tradução não oficial e gratuita de EarthBound (ou MOTHER 2), um RPG
+japonês lançado para o Super Famicom em 1994. 
+
+Dê o seu apoio à série adquirindo produtos oficiais, como o jogo para Wii U, e
+também a tradução oficial, se um dia esta for lançada.
+
+Para mais detalhes sobre esta tradução e o projeto, acesse:
+
+                              http://www.earthboundbrasil.com
+
+==================================
+
+COMO USAR O PATCH DA TRADUÇÃO:
+
+  1. Extraia o conteúdo deste arquivo para uma pasta no seu computador. Você
+     terá os seguintes arquivos:
+     
+    * ebbr.ips
+	* ebbr[!].ips
+    * ebbr.txt (que é este arquivo)
+
+
+  2. Depois, você precisará de uma ROM de EarthBound. Isso pode ser
+     considerado pirataria, então você terá que procurar sozinho. Sites de
+     busca são úteis para esse tipo de coisa. Precisa ou de um rom com
+	 cabeçalho ou sem cabeçalho, mas é melhor sem.
+     
+     Assim que você tiver a ROM, certifique-se de que não esteja zipada. O
+     arquivo deve ter 3 MB. Coloque esse arquivo na mesma pasta que está
+     o arquivo ebbr.ips (se está usando ROM com cabeçalho) ou ebbr[!].ips
+	 (se está usando ROM sem cabeçalho).
+
+     Se tiver programa que gera MD5 CHECKSUM, o MD5 do ROM com cabeçalho 
+	 tem que ser:
+     ABE493B665F7467000BCF8C373B323FD
+	 
+	 E o MD5 do ROM sem cabeçalho:
+	 A864B2E5C141D2DEC1C4CBED75A42A85
+
+     
+  3. Se você estiver usando Windows, use Lunar IPS para aplicar o patch:
+     http://fusoya.eludevisibility.org/lips/
+  
+     Se você estiver usando Mac, use MultiPatch para aplicar o patch:
+     http://projects.sappharad.com/tools/multipatch.html
+     
+     Se você estiver usando Linux, use JIPS para aplicar o patch:
+     http://zerosoft.zophar.net/jips.php
+      
+     Note que o processo pode demorar algum tempo em um computador mais
+     antigo ou se estiver sendo executado a partir de uma mídia externa.
+     Em geral, deve levar apenas alguns segundos para o patch ser aplicado.
+	 
+	 O MD5 do ROM patcheado:
+	 A5EE470AD753D22A1C493C7B4BAE6779
+
+     
+  4. Quando o patch tiver sido aplicado corretamente, você estará preparado
+     para jogar MOTHER 2 em Português! Use o seu emulador de Super Nintendo
+     preferido, ou, se tiver os hardwares necessários, você poderá jogar nos
+     consoles ou portáteis que quiser.
+
+
+==================================
+
+EQUIPE DA TRADUÇÃO:
+
+Equipe Principal:
+ Alex Foffano (Tradução, Revisão, Gráficos)
+ Jared Morgan (Hacking, Gráficos, Revisão)
+
+Tradutores:
+ Claus "Set" Martins
+ Flicky
+ Gustavo Diógenes (@TesauroRaptor)
+ Pedro (Draco)
+ Thiago Cianci
+ Vanessa
+ Vinicius
+
+Com ajuda de:
+ H.S
+ JeffMan
+ Mr.Tenda
+ Mr.Accident
+ Tomato
+ ShadowOne333
+
+Agradecimentos Especiais:
+ Ambrey
+ Carlos Almeida
+ Claus
+ Danilo
+ Hsing Hui Lee
+ João de Araujo
+ Mukuro
+ Porter
+ Rachel
+ Régis Sudo
+ Ruby
+ Rydel
+ Sadie
+ Thiago Schreiner
+
+starmen.net
+romhackers.org (PO.B.R.E.)
+romhacking.trd.br (Fórum Unificado de ROMHacking e Tradução)
+
+==================================
+
+Esta tradução não é associada à Nintendo of America, Shigesato Itoi, 
+Nintendo Co., Ltd., HAL, ou APE. É uma tradução de fãs e foi feita
+por indivíduos dedicados sem renumeração e sem ganho de qualquer
+espécie.
+
+Ao utilizar o patch de tradução você concorda com o seguinte:
+
+O uso e a distribuição desta tradução de fãs deve cessar imediatamente
+após qualquer lançamento oficial de EarthBound/MOTHER 2 no Brasil.
+
+O patch, o conteúdo do patch, o trabalho representado nesse patch ou
+qualquer material ou conteúdo do site earthboundbrasil.com ou da 
+tradução de Mother 2 da equipe EarthBoundBrasil nunca será vendido ou 
+distribuido em forma de ROM, cartucho, fita, CD, DVD, ou qualquer 
+outra forma de dispositivo de armazenamento.
+
+Qualquer distribuição da tradução tem que ser autorizado pela equipe
+da tradução. A tradução não pode ser distribuida com qualquer conteúdo,
+material ou arquivo protegido por direitos autorais.
+
+==================================

@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://github.com/libsdl-org/SDL/releases/download/release-2.32.10/SDL2-devel-2.32.10-VC.zip",
+    "file": "sdl2-windows.zip",
+    "sha256": "af347939395a58b365846aaea27391e69f9ec9d4dd650d6ac40802159b418a6e"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRunaway5/Phase-Distorter/main/releases/Phase-Distorter-0.5-linux-x86_64.zip",
+    "file": "Phase-Distorter-0.5-linux-x86_64.zip",
+    "sha256": "9acf147c1aa18c3a8a03c4141a2c6094256f505c692f2947ebbd346fb4a40622"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRunaway5/Phase-Distorter/main/releases/Phase-Distorter-0.5-macos-universal.zip",
+    "file": "Phase-Distorter-0.5-macos-universal.zip",
+    "sha256": "026ca448734627c314cfa9621af4b3451d586f3dc181a6357543ccd3cbbcf499"
+  }
+]
