@@ -1,4 +1,4 @@
-# EarthBound PC Port COOP — Version 3.6
+# EarthBound PC Port COOP - Version 3.6
 
 **Platforms:** Windows • Linux • macOS  
 **Latest Update:** October 26, 2026  
