@@ -2,6 +2,7 @@ This adaptation is dedicated to the people who studied, preserved, and translate
 
 Thank you to Nintendo, Shigesato Itoi, APE, HAL Laboratory, and the original teams for creating this work. Thank you to the players and communities for their love, research, documentation, tools, and translations.
 Projects and Contributors
+
 - Native C codebase: Brian Pugh and contributors to BrianPugh/earthbound.
   https://github.com/BrianPugh/earthbound
   Revision used: a2cf5c327d367d90440c5768713056462b0c4d9e.
@@ -14,6 +15,7 @@ Projects and Contributors
 - Linux/macOS SDL2 libraries: Sourced from TheRunaway5’s Phase Distorter 0.5 packages. That project’s game executable was not reused.
 - Build tools: Zig/Clang, Python, CMake, Ninja, and ebtools.
 - Desktop adaptation, menus, and adjustments: Edzito, with assistance from Codex.
+
 EarthBound Brasil 1.0
 Translation dated April 4, 2015, supplied by the user.
 - Project: Alex Foffano and Jared Morgan.
