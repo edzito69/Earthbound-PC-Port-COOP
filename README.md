@@ -1,9 +1,10 @@
 EarthBound PC — Ver. 3.6
+
 Platforms: Windows, Linux, and macOS
 Release: October 25, 2026
 Latest update: October 26, 2026
 
-ADDED
+ADDED/r/n
 Automatic saves: Dedicated autosave slot in each drawer under F1/F2 → Saves. Saves trigger when changing towns, passing through doors, and winning battles, after transitions finish.
 Simultaneous battle commands: P1 and Mess select actions in adjacent native menus. Actions execute once both players finish selecting, preserving the original targeting, item, and turn rules. Save states retain selections in progress.
 Mouse-controlled P2: With co-op enabled, double-click the right mouse button to request control of P2. Keyboard and unassigned controllers remain assigned to P1.
