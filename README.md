@@ -1,11 +1,16 @@
 # EarthBound PC — Version 3.6
 
 **Platforms:** Windows • Linux • macOS  
-**Release Date:** October 25, 2026  
 **Latest Update:** October 26, 2026  
-**Status:** Experimental
 
----
+
+ATENTION ATENTION  I'm sorry if you had a issue trying to open the new executable! The problem was I misspelled "Rom" as "Room". I've corrected the folder's name and the whole process of using the room mas broken. So... just add one "o" on the "Coloque sua Rom aqui", so it goes "Coloque sua Room aqui". Yeah, that's stupid.
+But you can download the complete repository now and it works because I left the mispronounce as a feature. ;)
+(soon I'll fix this, I'm very tired right now. and ashamed.)
+
+well
+
+HAVE FUN!
 
 ## What's New — Version 3.6
 
