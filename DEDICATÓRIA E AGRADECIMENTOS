@@ -1,3 +1,41 @@
+ORIGEM DO PROJETO E CRÉDITOS À COMUNIDADE
+
+EarthBound PC Port COOP é um port nativo não oficial e modificado para
+computadores, baseado na reimplementação de EarthBound em C de Brian Pugh
+e colaboradores. Essa base deriva do Herringway/ebsrc e do trabalho de
+desmontagem do código e pesquisa da comunidade. Os créditos dessas bases
+pertencem aos seus autores originais.
+
+Jogo original: Nintendo, Shigesato Itoi, APE, HAL Laboratory e as equipes
+originais de desenvolvimento de EarthBound.
+Implementação em C e contribuições à base: Brian Pugh e colaboradores.
+Disassembly e pesquisas anteriores: Herringway/ebsrc e seus colaboradores.
+Nomes de autores registrados no histórico da revisão utilizada nesta edição:
+Brian Pugh, Cameron Ross, CJ, Sean Staggs, PhoenixBound, Cooper Harasyn, Anonymous941, Herringway, lilliththecreative.
+Os nomes seguem o histórico; alguns podem ser pseudônimos da mesma pessoa.
+Base utilizada: https://github.com/BrianPugh/earthbound
+Fundação anterior: https://github.com/Herringway/ebsrc
+Revisão utilizada: a2cf5c327d367d90440c5768713056462b0c4d9e
+
+Recursos cooperativos, menus, controles e ajustes adicionais desta edição:
+Edzito, com assistência de desenvolvimento do Codex. São acréscimos ao
+trabalho existente da comunidade. A autoria original do jogo e da base
+em C permanece atribuída aos seus respectivos criadores.
+
+Agradecemos também a angelo_wf e aos colaboradores do LakeSnes; Sam Lantinga
+e aos colaboradores do SDL2; Brian Pugh e aos colaboradores do tamp; Dale
+Weiler e aos colaboradores do incbin; à equipe EarthBound Brasil; ao
+FantasyAnime e aos autores dos saves; a TheRunaway5; e aos desenvolvedores
+das ferramentas de compilação utilizadas. Os créditos detalhados abaixo
+e os avisos originais de terceiros permanecem preservados.
+Créditos ampliados e links para os históricos dos projetos:
+https://github.com/edzito69/Earthbound-PC-Port-COOP/blob/main/CREDITS.md
+
+Feito com amor por EarthBound e gratidão a quem contribuiu com código,
+pesquisa, traduções, documentação, testes e preservação.
+Esta edição é mantida de forma independente; os créditos não significam
+que os autores das bases mantêm ou endossam estas modificações.
+
 Esta adaptação é dedicada às pessoas que estudaram, preservaram, traduziram
 e tornaram possível reencontrar EarthBound em novos computadores.
 Obrigado à Nintendo, a Shigesato Itoi, à APE, à HAL Laboratory e às equipes
