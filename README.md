@@ -4,7 +4,7 @@
 **Latest Update:** October 26, 2026  
 
 
-ATENTION ATENTION  I'm sorry if you had a issue trying to open the new executable! The problem was I misspelled "Rom" as "Room". I've corrected the folder's name and the whole process of using the room mas broken. So... just add one "o" on the "Coloque sua Rom aqui", so it goes "Coloque sua Room aqui". Yeah, that's stupid.
+ATENTION ATENTION  I'm sorry if you had a issue trying to open the new executable! The problem was I misspelled "Rom" as "Room". I've corrected the folder's name and the whole process of using the rom mas broken. So... just add one "o" on the folder's name "Coloque sua Rom aqui", so it goes "Coloque sua Room aqui". Yeah, that's stupid.
 But you can download the complete repository now and it works because I left the mispronounce as a feature. ;)
 (soon I'll fix this, I'm very tired right now. and ashamed.)
 
