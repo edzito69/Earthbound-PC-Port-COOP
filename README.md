@@ -40,7 +40,7 @@ upstream authors maintain or endorse its modifications.
 **Latest Update:** October 26, 2026  
 
 
-⚠️ ATENTION ⚠️ I'm sorry if you had a issue trying to open the new executable! The problem was I misspelled "Rom" as "Room". I've corrected the folder's name and the whole process of using the rom mas broken. So... just add one "o" on the folder's name "Coloque sua Rom aqui", so it goes "Coloque sua Room aqui". Yeah, that's stupid.
+I'm sorry if you had a issue trying to open the new executable! The problem was I misspelled "Rom" as "Room". I've corrected the folder's name and the whole process of using the rom mas broken. So... just add one "o" on the folder's name "Coloque sua Rom aqui", so it goes "Coloque sua Room aqui". Yeah, that's stupid.
 But you can normally download the complete repository now and it works because I left the mispronounce as a feature. ;)
 (soon I'll fix this, I'm very tired right now. and ashamed.)
 
@@ -144,7 +144,7 @@ This is an experimental project, and some bugs are still being investigated and 
 
 **Use save states, rewind, and quick saves regularly!**
 
-A new autosave feature has been introduced, but the Windows implementation is currently somewhat buggy. It appears to work, although reliability is not yet guaranteed. ;)
+A new autosave feature has been introduced, but the window implementation is currently somewhat buggy. It appears to work, although reliability is not yet guaranteed. ;)
 
 For now, manual save states are strongly recommended!
 
@@ -158,6 +158,14 @@ When fighting a boss with two players:
 This is a precaution to avoid unexpected behavior during boss encounters.
 
 ###  3. Independent Exploration & Rendering Issues
+
+###  4. STAIRS ARE ENEMIES IN COOP
+
+If you're using COOP Mode, there's a bug that everyplayer stays frozen moving up stairs. It's very broken, so I recommend turning COOP Mode off when using at some areas, okay?
+
+###  5. IN SOME BATTLES MESS ACTIONS DISAPPEAR OF SCREEN
+
+This is a problem about wrong windows positioning. If you two want to battle together more often, I recommend staying close when starting fights. (Like, in the same camera view!)
 
 Version 3.6 introduces an experimental feature allowing both players to explore different rooms independently.
 
