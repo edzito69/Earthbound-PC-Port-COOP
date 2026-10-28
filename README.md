@@ -1,4 +1,4 @@
-# EarthBound PC Port COOP — Version 3.7
+# EarthBound PC Port COOP - Version 3.7
 
 An unofficial, modified native desktop adaptation for Windows, Linux and macOS,
 based on Brian Pugh and contributors' EarthBound C implementation and the
