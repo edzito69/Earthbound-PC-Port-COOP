@@ -1,4 +1,6 @@
-﻿VER. 3.5 — CORREÇÕES
+﻿Versão atual para computadores: 3.7 — 27/10/2026.
+
+VER. 3.7 — CORREÇÕES
 
 ORIGEM DO PROJETO E CRÉDITOS À COMUNIDADE
 
@@ -38,10 +40,9 @@ pesquisa, traduções, documentação, testes e preservação.
 Esta edição é mantida de forma independente; os créditos não significam
 que os autores das bases mantêm ou endossam estas modificações.
 
-OIII COLOQUE SUA ROM NA  "Coloque sua Room aqui" (uau!!!)
-
 VER. 3.5 — CORREÇÕES (computadores)
-Windows, Linux e macOS.
+Windows, Linux e macOS. O APK Android permanece na versão anterior.
+
 O botão inferior (X do PlayStation/A do Xbox/B do Switch/1 genérico) faz
 Corrida no cenário e OK em menus e diálogos. Quadrado/X/Y/3 interage com
 um acionamento por toque, sem repetir inspeções ao segurar.
@@ -81,7 +82,7 @@ A campanha inteira e todos os modelos físicos não foram testados.
 O modo COOP continua experimental. Preserve cópias de segurança dos saves.
 
 VER. 3.5 — DESKTOP MAINTENANCE
-Windows, Linux and macOS.
+Windows, Linux and macOS; the Android APK is unchanged.
 The physical south button runs in the world and confirms native menus/text.
 West interacts once per press. Kit 3 is Ultimate, with endgame equipment.
 Post-victory acceleration defaults on; 15% recovery defaults off. Free map
@@ -114,7 +115,7 @@ Versão 3.5 — 25/10/2026
 
 COMO JOGAR
 1. Coloque sua própria ROM original EarthBound (USA), sem tradução aplicada,
-   na pasta "Coloque sua Room aqui", junto das três pastas dos sistemas.
+   na pasta "Put your rom here - Coloque sua rom aqui", junto das três pastas dos sistemas.
    São aceitos arquivos .sfc ou .smc de 3 MiB, com ou sem cabeçalho de 512 bytes.
    Não é necessário renomear o arquivo. Arquivos ZIP não são lidos diretamente.
 2. Windows 10/11 x64: abra o .exe na pasta Port Windows (ou Port PC). Mantenha a SDL2.dll junto.
@@ -132,7 +133,7 @@ estados e salvamentos normais. Este pacote não importa nem altera partidas
 da instalação anterior automaticamente. Para continuar uma partida antiga,
 copie seus arquivos drawer-*.ebs, slot-*.ebs e .srm para a nova pasta Saves,
 mantendo uma cópia dos originais. A versão anterior não lê o novo formato V3.
-Também é possível colocar "Coloque sua Room aqui" dentro de uma única pasta
+Também é possível colocar "Put your rom here - Coloque sua rom aqui" dentro de uma única pasta
 de sistema, caso você queira copiar somente aquela versão para outro lugar.
 
 ATALHOS
@@ -164,6 +165,8 @@ NOVIDADES DESTA VERSÃO
   Para voltar nos menus nativos, use o botão direito; clique em área vazia
   não cancela mais. Scroll segue as linhas/colunas do menu original.
 - Volume no F1 varia em passos de 10% ao clicar.
+- Android: APK ARM64, importação da própria ROM, toque, pinça e orientação.
+  Consulte os READ MEs na pasta Android apk, na raiz do projeto.
 - Correção das escadas de praia em Summers, inclusive ao jogar pelo mouse.
 - Capítulos limpam distorção de batalha e tarefas antigas de movimento.
 - Scroll percorre opções, personagens e inimigos conforme o contexto.

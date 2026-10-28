@@ -1,185 +1,68 @@
-# EarthBound PC Port COOP - Version 3.6
+# EarthBound PC Port COOP — Version 3.7
 
-## PROJECT ORIGIN AND COMMUNITY CREDITS
+An unofficial, modified native desktop adaptation for Windows, Linux and macOS,
+based on Brian Pugh and contributors' EarthBound C implementation and the
+inherited Herringway/ebsrc disassembly and research.
 
-EarthBound PC Port COOP is an unofficial, modified native desktop port based
-on Brian Pugh and contributors' EarthBound C reimplementation. That foundation
-builds on Herringway/ebsrc and the community's disassembly and research.
-Credit for those foundations belongs to their original authors.
+This edition adds experimental local co-op, modern controls, save states and
+expanded settings. The underlying game and code retain their original authorship.
 
-Original game: Nintendo, Shigesato Itoi, APE, HAL Laboratory and the original
-EarthBound development teams.
-C implementation and upstream contributions: Brian Pugh and contributors.
-Disassembly and earlier research: Herringway/ebsrc and its contributors.
-Author names recorded in the upstream history used by this edition:
-Brian Pugh, Cameron Ross, CJ, Sean Staggs, PhoenixBound, Cooper Harasyn, Anonymous941, Herringway, lilliththecreative.
-Names are preserved as recorded; some may be aliases of the same person.
-Upstream: https://github.com/BrianPugh/earthbound
-Earlier foundation: https://github.com/Herringway/ebsrc
-Revision used: a2cf5c327d367d90440c5768713056462b0c4d9e
+## Download and start
 
-This edition's co-op features, menus, controls and additional adjustments:
-Edzito, with development assistance from Codex. These are additions to the
-community's existing work. The underlying game and C foundation retain their
-original authorship.
+1. Download the [3.7 release](https://github.com/edzito69/Earthbound-PC-Port-COOP/releases/tag/EarthboundCOOPv3.7) and extract the complete ZIP.
+2. Place your own unmodified EarthBound (USA) `.sfc`/`.smc` ROM in **Put your rom here - Coloque sua rom aqui**. No ROM is included. Extract a zipped ROM first.
+3. Open `Port Windows/EarthBound PC.exe`, run `Port Linux/earthbound-pc`, or open `Port Mac/EarthBound PC.app`.
+4. Keep each executable's accompanying libraries and `adaptacao.ebpatch` in place.
 
-Thanks also to angelo_wf and LakeSnes contributors; Sam Lantinga and SDL2
-contributors; Brian Pugh and tamp contributors; Dale Weiler and incbin
-contributors; the EarthBound Brasil translation team; FantasyAnime and its
-save authors; TheRunaway5; and the developers of the build tools we use.
-The detailed credits below and original third-party notices remain intact.
-Expanded attribution and source-history links:
-https://github.com/edzito69/Earthbound-PC-Port-COOP/blob/main/CREDITS.md
+**F1** opens options; **F2** opens saves. Enable experimental co-op in
+**F1 → Gameplay**, then press Start/Options on the second controller and confirm.
+See [CONTROLS.md](CONTROLS.md), the English/Portuguese READ MEs and
+[CHANGELOG.md](CHANGELOG.md) for details.
 
-Made with love for EarthBound and gratitude to everyone whose code, research,
-translations, documentation, testing and preservation made this possible.
-This edition is maintained independently; credit does not imply that the
-upstream authors maintain or endorse its modifications.
+## Platform status
 
-**Platforms:** Windows • Linux • MACOS VERSION NOT WORKING  
-**Latest Update:** October 26, 2026  
+- **Windows:** builds and automated native regression tests passed.
+- **Linux:** compiled/inspected; reported audio differences remain under investigation.
+- **macOS:** compiled/inspected; the reported launch problem is not confirmed resolved.
 
+The project is experimental. A complete campaign and every physical controller
+model have not been validated. The [changelog](CHANGELOG.md#testing-and-known-issues)
+lists current limitations.
 
-I'm sorry if you had a issue trying to open the new executable! The problem was I misspelled "Rom" as "Room". I've corrected the folder's name and the whole process of using the rom mas broken. So... just add one "o" on the folder's name "Coloque sua Rom aqui", so it goes "Coloque sua Room aqui". Yeah, that's stupid.
-But you can normally download the complete repository now and it works because I left the mispronounce as a feature. ;)
-(soon I'll fix this, I'm very tired right now. and ashamed.)
+## Repository layout
 
-well
+- `Port Windows/`, `Port Linux/`, `Port Mac/`: desktop runtimes and original notices.
+- `Put your rom here - Coloque sua rom aqui/`: instructions for adding your own ROM.
+- `README.md`, `CHANGELOG.md`, `CONTROLS.md`, `CREDITS.md`: project documentation.
 
-HAVE FUN!
+This repository distributes the packaged desktop edition and documentation;
+it is not a complete source-code checkout. GitHub's automatic “Source code”
+archives contain the repository files. The upstream code projects are linked below.
+Personal ROMs, saves, preferences, signing keys and private build logs are excluded.
 
-## What's New — Version 3.6
+## Built on the community's work
 
-### Added Features
+This is a fan project made with affection for EarthBound and respect for the
+people who keep it accessible. Its foundation belongs to the original authors;
+this edition adds modifications to their work.
 
-- **Automatic Saves:** A dedicated autosave slot is available in each drawer under `F1/F2 → Saves`. Autosaves trigger when changing towns, passing through doors, and winning battles, after transitions finish.
+- **Brian Pugh and contributors:** the native C implementation and supporting tools in [BrianPugh/earthbound](https://github.com/BrianPugh/earthbound).
+- **Cameron Ross, Herringway and the ebsrc contributors:** the inherited disassembly, documentation and research behind that foundation. See [Herringway/ebsrc](https://github.com/Herringway/ebsrc).
+- The upstream revision's history also records **CJ, Sean Staggs, PhoenixBound, Cooper Harasyn, Anonymous941 and lilliththecreative**. Names follow the history; some may be aliases of the same person.
+- **angelo_wf and LakeSnes contributors; Sam Lantinga and SDL2 contributors; Brian Pugh and tamp contributors; Dale Weiler and incbin contributors.**
+- **Alex Foffano, Jared Morgan and the entire EarthBound Brasil translation team; FantasyAnime and its save authors; TheRunaway5; and the developers of the build tools used here.**
+- Thank you to **Nintendo, Shigesato Itoi, APE, HAL Laboratory and the original EarthBound teams**, and to all community programmers, researchers, translators, testers, preservationists and players.
 
-- **Simultaneous Battle Commands:** P1 and Mess can select their actions simultaneously in adjacent native battle menus. Actions execute once both players finish selecting, preserving the original targeting, item, and turn rules. Save states also retain selections in progress.
+**AI assistance disclosure:** OpenAI Codex was used extensively to assist with
+implementation, debugging, tests, builds and documentation. Edzito directed this
+edition's features and integration. AI assistance does not change the authorship
+of the original game, upstream code, dependencies or translations, and it does
+not replace testing.
 
-- **Independent Exploration:** Optional support for players exploring separate rooms independently.
+> Thank you to everyone who shared code, knowledge, tools, translations and love
+> for EarthBound. This project exists because of you. It is made for the community,
+> with gratitude, care and respect for the people behind the work. — Edzito
 
-- **Photo Pose Shortcut:** Press the bottom face button + `R1/RB` to perform a photo pose in the overworld.
-
-- **Support Monkey:** An optional cosmetic companion for P1, available under `F1 → Gameplay`. Disabled by default and independent of the story companion.
-
-- **God Menu Teleportation:** Teleport destinations now include towns, pizzerias, pharmacies, weapon shops, and other establishments. Teleportation preserves inventory and story progress.
-
----
-
-##  Changes & Improvements
-
-### Multiplayer & Gameplay
-
-- Experimental co-op is now available in **all desktop editions**. Enable it under `F1 → Gameplay`. It is disabled by default.
-- English is now the default language for both the game and F1/F2 menus. Portuguese remains available.
-- The P2 join prompt appears directly over gameplay without opening F1.
-- Both players perform the photo pose when P2 joins, accompanied by a cheerful sound effect without interrupting the music.
-- Balanced and Exploration kits now provide weaker equipment and leave more inventory space.
-- Mess receives equipment equivalent to P1's and a copy of half the eligible food/healing items in P1's active leader inventory, rounded down and limited by available space. P1 keeps the original items.
-- Ordinary item pickups are shared between players. Quest items are not duplicated, and internal transfers do not create extra copies.
-- Overflow item copies are sent to Escargo.
-- Battle reward deposits credit both players with the same amount.
-- Story progress is shared, allowing either player to continue without repeating completed quest dialogue.
-- In co-op, a defeated player returns to the overworld with **15% HP**, while the other player can continue fighting. Single-player follows the Gameplay preference.
-- Gameplay and co-op settings now apply immediately without requiring the Apply button.
-
----
-
-##  Controls & Shortcuts
-
-| Player | Input | Action |
-|---|---|---|
-| P1 | `T` (Keyboard) | Teleport to Player 2 |
-| P1 | `L3` | Teleport to Player 2 |
-| P2 | `L3` | Teleport to Player 1 |
-| P2 | `R3` | Cycle through six clothing palettes |
-| P2 | `Select` | Leave the co-op session |
-| Both | `Triangle` | Display party HP/PP alongside money |
-| Both | Bottom Face Button + `R1/RB` | Perform a photo pose |
-
-### Additional Control Notes
-
-- Teleportation waits for a safe moment outside battles and dialogue.
-- `L3 + Triggers` remains reserved for zoom.
-- P2's pajamas follow Ness's current appearance.
-- Pressing P2's Select button leaves the session without opening F2 on release.
-
----
-
-##  Saves & Distribution
-
-- Distribution ZIP files **do not include ROMs, personal saves, or preferences**.
-- Updating the game does not overwrite existing saves.
-- Use `F1/F2 → Save States` to preserve both players' progress.
-- Original telephone saves continue to store P1's campaign.
-- Automatic saves are available, but this feature is still experimental.
-
----
-
-##  Testing & Known Limitations
-
-### Platform Testing
-
-| Platform | Status |
-|---|---|
-| Windows | ✅ Built, executed, and tested |
-| Linux | ⚠️ It works, but audio and effects are a little weird |
-| macOS | ⚠️ Doesn't worked yet :/ |
-
-**Important:**
-
-- Co-op remains experimental.
-- The entire campaign has not yet been fully validated.
-- Some features may behave unexpectedly during extended gameplay.
-
----
-
-## ⚠️ Known Bugs & Important Recommendations
-
-**PLEASE READ BEFORE PLAYING CO-OP!**
-
-This is an experimental project, and some bugs are still being investigated and fixed.
-
-###  1. Save Frequently!
-
-**Use save states, rewind, and quick saves regularly!**
-
-A new autosave feature has been introduced, but the window implementation is currently somewhat buggy. It appears to work, although reliability is not yet guaranteed. ;)
-
-For now, manual save states are strongly recommended!
-
-###  2. Boss Battles in Co-op
-
-When fighting a boss with two players:
-
-- **Let Player 1 initiate the battle.**
-- **Make sure BOTH players are in the SAME ROOM before starting the fight.**
-
-This is a precaution to avoid unexpected behavior during boss encounters.
-
-###  3. Independent Exploration & Rendering Issues
-
-###  4. STAIRS ARE ENEMIES IN COOP
-
-If you're using COOP Mode, there's a bug that everyplayer stays frozen moving up stairs. It's very broken, so I recommend turning COOP Mode off when using at some areas, okay?
-
-###  5. IN SOME BATTLES MESS ACTIONS DISAPPEAR OF SCREEN
-
-This is a problem about wrong windows positioning. If you two want to battle together more often, I recommend staying close when starting fights. (Like, in the same camera view!)
-
-Version 3.6 introduces an experimental feature allowing both players to explore different rooms independently.
-
-However, when players are far apart, the game must handle **two separate overworld environments**.
-
-This can occasionally cause issues with rendering:
-
-- Enemies
-- NPCs
-- Interactive objects
-- Other overworld elements
-
-These issues are related to the new independent exploration system and are still being worked on.
-
-**If you experience rendering problems, you can disable COOP/Independent Exploration in the Gameplay Menu**
-
-Doing!
+See [CREDITS.md](CREDITS.md) for expanded attribution, the upstream revision and
+source-history links. Original third-party notices remain in each package's
+`licenses` directory. This edition is independently maintained.

@@ -1,4 +1,6 @@
-﻿EARTHBOUND PC COOP — VERSION 3.5
+﻿Current desktop release: 3.7 — October 27, 2026.
+
+EARTHBOUND PC COOP — VERSION 3.7
 
 PROJECT ORIGIN AND COMMUNITY CREDITS
 
@@ -44,7 +46,7 @@ A version developed by Edzito, with lots of love.
 
 INSTALLATION
 
-Place your own original, unmodified EarthBound (USA) ROM, in .sfc or .smc format, inside the "Coloque sua Room aqui" folder, located alongside the operating system folders.
+Place your own original, unmodified EarthBound (USA) ROM, in .sfc or .smc format, inside the "Put your rom here - Coloque sua rom aqui" folder, located alongside the operating system folders.
 
 Accepted ROM size: 3 MiB, optionally including a 512-byte copier header.
 

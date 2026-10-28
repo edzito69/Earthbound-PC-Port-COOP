@@ -1,4 +1,6 @@
-EARTHBOUND PC COOP — VERSÃO 3.5
+Versão atual para computadores: 3.7 — 27/10/2026.
+
+EARTHBOUND PC COOP — VERSÃO 3.7
 
 ORIGEM DO PROJETO E CRÉDITOS À COMUNIDADE
 
@@ -45,7 +47,7 @@ EARTHBOUND Ver. 3.5 COOP — EXPERIMENTAL
 Versão desenvolvida por Edzito, com muito amor.
 
 INSTALAÇÃO
-Coloque sua própria ROM original e não modificada de EarthBound (USA), no formato .sfc ou .smc, na pasta "Coloque sua Room aqui", localizada ao lado das pastas dos sistemas operacionais.
+Coloque sua própria ROM original e não modificada de EarthBound (USA), no formato .sfc ou .smc, na pasta "Put your rom here - Coloque sua rom aqui", localizada ao lado das pastas dos sistemas operacionais.
 
 São aceitas ROMs de 3 MiB, opcionalmente com um cabeçalho de cópia de 512 bytes.
 

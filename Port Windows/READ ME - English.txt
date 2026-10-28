@@ -1,4 +1,6 @@
-EARTHBOUND PC — Version 3.5
+Current desktop release: 3.7 — October 27, 2026.
+
+EARTHBOUND PC — Version 3.7
 
 PROJECT ORIGIN AND COMMUNITY CREDITS
 
@@ -88,7 +90,7 @@ Keep SDL2.dll beside the executable. It opens without a command prompt.
 
 The separate "Earthbound PC Port" folder contains Windows, Linux and macOS
 versions which require your own game ROM at every launch. Place your own
-unmodified EarthBound (USA) ROM in "Coloque sua Room aqui" beside the system
+unmodified EarthBound (USA) ROM in "Put your rom here - Coloque sua rom aqui" beside the system
 folders. Accepted files: .sfc or .smc, 3 MiB, with or without a 512-byte copier
 header. Extract ZIP files first. Do not use an already translated ROM.
 No ROM is included or downloaded. The ROM is read without being modified.
@@ -182,8 +184,30 @@ VERSION 3.0 CHANGES
   weapons and armor, Jeff tools, food, all items, noclip and +5,000 money.
   Items require a free inventory space. Cheats can break progression; keep
   a separate save. All cheats start disabled when reopening the application.
+- Android ARM64 APK, own-ROM import, touch gestures and portrait/landscape.
 - Previous Summers stairs, chapter distortion, armor and save fixes retained.
 
+ANDROID
+Install "Android apk/EarthBound Ver.3.0.apk" on Android 8.0+ ARM64.
+The default APK contains no ROM. At first launch choose your own original
+EarthBound (USA) .sfc/.smc, 3 MiB with or without a 512-byte copier header.
+The original is not modified. The app keeps a private copy, requests no
+broad storage access or internet permission, and reconstructs assets locally.
+Use the untranslated USA ROM; the game language is selected in F1.
+
+Touch/drag to walk, drag farther to Run, tap characters/objects to interact.
+Two-finger tap: back. Pinch: zoom 50-150%. Small Mr. Saturn top-left: F1.
+Translucent Menu/Map buttons are configurable in the Android-only F1 tab.
+Choose auto/portrait/landscape, button size/opacity, pinch and Run distance.
+Portrait fills the screen with its own world framing and separate native UI.
+
+Optional personal APK: put exactly one compatible ROM in
+"Android apk/Put your rom here - Coloque sua rom aqui", then run "Criar APK pessoal.cmd" from
+the intact Windows project. It creates "EarthBound Ver.3.0 - pessoal.apk".
+The standard APK instead imports the ROM on-device; no rebuild is needed.
+Uninstalling removes the app's private ROM, settings and saves.
+APK signature/alignment/native libraries were checked and gestures simulated;
+this build has NOT been run on a physical Android device.
 
 Version 2.5 fixes are retained: battle-state cold loads, consistent camera
 shutter, 36 slots, four quicksaves, 400x225 thumbnails and improved old previews.

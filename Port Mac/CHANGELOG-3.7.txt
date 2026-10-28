@@ -1,0 +1,20 @@
+EARTHBOUND PC PORT COOP — VERSION 3.7
+October 27, 2026 — Windows, Linux and macOS
+
+- Updated in-game desktop version labels, Windows file properties and macOS bundle versions to 3.7.
+- Added optional Double XP in Gameplay; disabled by default.
+- Revised enemy synchronization, defeated-enemy tracking and encounter joining.
+- Fixed automatic movement playback in co-op; both players passed the Summers stair test.
+- Fixed command-panel extraction for boss graphics modes; both panels passed the scripted boss test.
+- Revised teleporting into shared battles, photo poses and matching pajama colors.
+- Added three rotating autosaves per drawer, duplicate throttling and navigation to the autosave row.
+- Moved co-op and independent exploration to the top of Gameplay.
+- Disabled double-right-click mouse takeover for Player 2.
+- Renamed the ROM directory to Put your rom here - Coloque sua rom aqui, retaining legacy-name lookup.
+- Expanded upstream, dependency and community attribution in English and Portuguese.
+
+Testing: Windows cooperative regression and five cold-launch states passed.
+Linux/macOS builds are compiled and inspected, not locally executed.
+Deep Darkness edge/canopy rendering, dungeon music validation, reported Linux audio differences and macOS startup remain open investigations.
+The full campaign and every staircase have not been exhaustively validated.
+Android retains its separate version 3.6.4.
