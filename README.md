@@ -7,6 +7,7 @@ on Brian Pugh and contributors' EarthBound C implementation and the community
 work credited in [CREDITS.md](CREDITS.md). Directed by Edzito with extensive
 OpenAI Codex assistance in implementation, debugging, tests and packaging.
 
+REDDIT GROUP https://www.reddit.com/r/EarthboundCOOP/
 
 ## Install
 
