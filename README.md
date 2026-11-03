@@ -1,4 +1,6 @@
-# EarthBound community adaptation — 4.5.0
+<img width="1744" height="841" alt="image" src="https://github.com/user-attachments/assets/a65da3e5-b56a-4329-ac07-3f0407fa30e5" />
+
+# EarthBound PC Port COOP - 4.5.0
 
 An unofficial native adaptation for Windows, Linux, macOS and Android, based
 on Brian Pugh and contributors' EarthBound C implementation and the community
