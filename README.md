@@ -5,6 +5,7 @@ on Brian Pugh and contributors' EarthBound C implementation and the community
 work credited in [CREDITS.md](CREDITS.md). Directed by Edzito with extensive
 OpenAI Codex assistance in implementation, debugging, tests and packaging.
 
+
 ## Install
 
 Download a release and extract the entire package. Desktop players must add
@@ -34,7 +35,7 @@ This prepared tree excludes personal ROMs, saves, preferences, keys, build
 logs, dependency caches and private generated game-resource headers.
 Keep the original third-party notices in each runtime's licenses folder.
 English and Brazilian Portuguese are available; Spanish/Chinese are not
-integrated. The original customized Read Mes are preserved as supplied.
+integrated.
 
 ## Português
 
