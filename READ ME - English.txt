@@ -1,6 +1,6 @@
-Current desktop release: 3.7 — October 27, 2026.
+﻿Current desktop release: 3.7 — October 27, 2026.
 
-EARTHBOUND PC — Version 3.7
+EARTHBOUND PC COOP — VERSION 3.7
 
 PROJECT ORIGIN AND COMMUNITY CREDITS
 
@@ -38,224 +38,350 @@ translations, documentation, testing and preservation made this possible.
 This edition is maintained independently; credit does not imply that the
 upstream authors maintain or endorse its modifications.
 
-VER. 3.5 — DESKTOP MAINTENANCE
-Windows, Linux and macOS; the Android APK is unchanged.
-The physical south button runs in the world and confirms native menus/text.
-West interacts once per press. Kit 3 is Ultimate, with endgame equipment.
-Post-victory acceleration defaults on; 15% recovery defaults off. Free map
-without the item is disabled. God Menu unlock lasts until process exit;
-heal/revive restores the party and its overworld appearance.
-Boss-phase sprite references, per-layer horizontal/vertical background
-raster effects, PSI routing, black intertitles, camera shake restart and
-mouse battle-target selection have been corrected.
+VER. 3.5 — See maintenance notes above.
 
-EXPERIMENTAL CO-OP
-P2 starts with P1 equipment, two Bread rolls and one Cookie. Only the
-Bubble Monkey may accompany both players. Both players can trigger story
-dialogue/actions and command Paula/Jeff/Poo during joint battles.
-Distant exploration uses a vertical P1/P2 split. Joining combat requires
-physical contact; Waiting for next turn appears while the join is pending.
-A flash marks joining combat. P2 L3 teleports to P1; R3 cycles six saved
-clothing palettes. P2 Select leaves with a photo pose; a joint battle must
-finish first to preserve turn and party state. Stick clicks inside F1/F2
-still trigger Mr. Saturn. Mess windows use a blue tint.
-Rolling HP, protagonist identity, party rebuilding, sprite occlusion,
-independent doors/hotspots, shared music and contact snapshots were fixed.
+EARTHBOUND Ver. 3.5 COOP — EXPERIMENTAL
 
-Windows validation uses simulated SDL controllers and native integration
-tests. Linux/macOS binaries are compiled/inspected, not executed here.
-The full campaign and every physical controller model are not validated.
-Co-op remains experimental. Keep backup copies of personal saves.
+A version developed by Edzito, with lots of love.
 
-Version 3.5 — October 25, 2026
+INSTALLATION
 
-DESKTOP CONTROLLER UPDATE
-Physical south: Run in the world / OK in native menus (PS X / Xbox A / Switch B / generic 1).
-Physical west: interact and confirm in-game (Square / X / Y / 3).
-Physical east: personal menu and back (Circle / B / A / 2).
-Physical north: party HP and money (Triangle / Y / X / 4).
-Disable Run in F1 to use the south button for interaction/confirmation.
-F1/F2 always use south for OK and east for Back, including custom bindings.
-Click either stick (L3/R3) in F1 to interact with Mr. Saturn.
-Old A/B/C presets migrate; player-customized bindings are preserved.
-The rose has solid collision and sits on the ground right of the tree behind
-Ness's house. It no longer draws over characters or the opening cinematics.
-Its final line is "Funny, I don't remember who planted this here."
-The "Later that night..." prologue card is translated in Portuguese.
-Existing Android APK files are unchanged by this desktop update.
+Place your own original, unmodified EarthBound (USA) ROM, in .sfc or .smc format, inside the "Put your rom here - Coloque sua rom aqui" folder, located alongside the operating system folders.
 
-GETTING STARTED
-The original local installation opens with EarthBound PC.exe on Windows.
-Keep SDL2.dll beside the executable. It opens without a command prompt.
+Accepted ROM size: 3 MiB, optionally including a 512-byte copier header.
 
-The separate "Earthbound PC Port" folder contains Windows, Linux and macOS
-versions which require your own game ROM at every launch. Place your own
-unmodified EarthBound (USA) ROM in "Put your rom here - Coloque sua rom aqui" beside the system
-folders. Accepted files: .sfc or .smc, 3 MiB, with or without a 512-byte copier
-header. Extract ZIP files first. Do not use an already translated ROM.
-No ROM is included or downloaded. The ROM is read without being modified.
-adaptacao.ebpatch reconstructs the required game resources in memory.
-Keep that file with each system's version.
+No ROM is provided, downloaded, or modified by this project.
 
-Windows 10/11 x64: open EarthBound PC.exe in Port Windows (or Port PC).
-Linux x64, glibc 2.36+: run ./earthbound-pc in Port Linux; keep lib beside it.
-If necessary, mark the program executable in its file properties.
-macOS 11+, Intel/Apple Silicon: open EarthBound PC.app in Port Mac.
-This local application is not Apple-notarized. If macOS blocks it, approve
-it through System Settings > Privacy & Security after checking its source.
-The shared ROM folder may instead be placed inside one system's folder
-when copying that version to another computer.
+Keep the adaptacao.ebpatch file.
 
-YOUR SAVES
-Each separate port stores its settings and saves in its own Saves folder.
-It does not automatically import or overwrite the original installation.
-To continue an older game, COPY its .srm, drawer-*.ebs and slot-*.ebs files
-into the appropriate Saves folder. Keep the original files as a backup.
-Older V2 states are supported. New V3 states require version 2.5 or later.
-The original installation keeps using its previous preferences directory.
+Windows: Port Windows/EarthBound PC COOP 3.5.exe
 
-MENUS AND BASIC CONTROLS
-F1: video, audio, controls, saves, chapters and optional gameplay features.
-F2: open Saves directly. Three drawers A/B/C, with 12 slots each.
-F3: choose Quicksave 1, 2, 3 or 4 to SAVE (slots 9, 10, 11 and 12).
-F4: choose one of those quicksaves to LOAD. Escape/Q/Ctrl cancels.
-The four quicksave slots are yellow. Saving plays the original photo pose
-and shutter; loading gives a short photo flash without moving the party.
-"Continue from Save State" is selected first when a valid state exists.
-The small EarthBound-style "Menu F1" box is clickable and opens the options.
-The main menu also accepts Enter to confirm and Backspace to go back.
+Linux: Port Linux/earthbound-pc, with the lib folder next to the executable (x64, glibc 2.36 or newer).
 
-WASD/arrows: move or navigate. E: interact/confirm. Q/Esc/Ctrl: back in menus.
-Tab: Ness's menu. Shift + movement: optional Run, 23% faster.
-Comma/period: zoom out/in, from 50% to 150%. Indicator hides after 2 seconds.
-Hold +: 4x fast-forward with normal audio speed/pitch. Hold -: rewind.
-M: the game's map shortcut. With "Map without the item (M)" enabled in
-F1 > Gameplay, the map works without carrying the Town Map item.
-Areas without a native town map remain unavailable. This option defaults off.
-F5–F12 have no assigned shortcuts.
+Mac: Port Mac/EarthBound PC COOP.app, compatible with macOS 11 or newer, supporting both Intel and Apple Silicon processors.
 
-MOUSE
-Hold left click in a direction to walk; click a character/object to approach
-and interact. Left click selects/confirms. Right click opens Ness's menu or
-goes back. Blank left clicks are ignored. Holding a menu selection does not
-accelerate the dialogue it opens; release and click again to advance text.
-The wheel moves through menu choices, party members and enemy targets,
-following the layout/context. It also adjusts digits when entering numbers.
-Mouse movement can be turned off in F1 > Gameplay.
+The Mac application is not notarized by Apple. If macOS blocks it, allow the application through the system's Privacy & Security settings.
 
-CONTROLLERS
-PS4, PS5, Xbox, Nintendo Switch and SDL-compatible generic controllers are
-supported. Choose presets A (Original), B (Modern) or C (Simple), or customize
-your bindings under F1 > Controls. The illustrated map follows your bindings.
-The external Controles folder also includes reference diagrams.
-F1/F2 menus retain standard navigation when gameplay buttons are customized.
-Back + Start opens F1 as an alternative to a reserved system/Home button.
-Gameplay hints show the currently assigned Run button.
+HOW TO ENABLE CO-OP MODE
 
-VIDEO, LANGUAGES AND OPTIONAL FEATURES
-1920x1080 widescreen is supported, with extra scenery at the sides.
-Choose window/fullscreen, 30/60 presentation FPS, colors, scaling and CRT
-filters in F1. Game logic remains at 60 Hz; audio has its own normal clock.
-Choose English or Brazilian Portuguese for the game, and independently
-choose the language of the F1/F2 menus. The supplied fan translation retains
-distinctive game elements such as SMAAAASH. No full human review was done.
-Text speed, Run, Where to go?, post-victory acceleration, Run visuals,
-mouse control, map access and recovery after defeat can be configured.
-Optional defeat recovery respawns the party nearby with 15% HP and temporary
-invincibility, preserving progress and spent items.
+Load your game, open F1 > Gameplay > Experimental co-op, accept the warning, and apply the settings.
 
-CHAPTERS AND KITS
-Choose a location, then a kit, then confirm the chapter start.
-This replaces the current unsaved session; saved files are kept.
-Balanced keeps the checkpoint's equipment. Exploration uses a modestly
-lighter weapon/armor selection with extra money. Combat favors stronger
-available protection and appropriate Jeff rockets, with less money.
-Armor alternatives are restricted to equipment present in checkpoints up
-to that chapter, with bounded defense changes. Essential items and Poo's
-special equipment are preserved. The selection does not unlock later areas.
+CO-OP MODE IS DISABLED BY DEFAULT.
 
-VERSION 3.0 CHANGES
-- EarthBound Ver.3.0 header and a clickable Credits button in F1.
-- An inspectable rose behind Ness's house, dedicated to Amanda.
-- Clickable Menu F1 reminder; stable native mouse menus and release guards.
-- Click the volume setting to change it by 10%.
-- God Menu under Gameplay: double-click its padlock, read the warning and
-  choose Yes. Infinite party HP/PP, healing/removing ailments, character
-  weapons and armor, Jeff tools, food, all items, noclip and +5,000 money.
-  Items require a free inventory space. Cheats can break progression; keep
-  a separate save. All cheats start disabled when reopening the application.
-- Android ARM64 APK, own-ROM import, touch gestures and portrait/landscape.
-- Previous Summers stairs, chapter distortion, armor and save fixes retained.
+Press Start/Options/+/Menu on the controller intended for Player 2 (P2), then confirm joining the game.
 
-ANDROID
-Install "Android apk/EarthBound Ver.3.0.apk" on Android 8.0+ ARM64.
-The default APK contains no ROM. At first launch choose your own original
-EarthBound (USA) .sfc/.smc, 3 MiB with or without a 512-byte copier header.
-The original is not modified. The app keeps a private copy, requests no
-broad storage access or internet permission, and reconstructs assets locally.
-Use the untranslated USA ROM; the game language is selected in F1.
+Selecting "No" keeps the controller available for Player 1 (P1).
 
-Touch/drag to walk, drag farther to Run, tap characters/objects to interact.
-Two-finger tap: back. Pinch: zoom 50-150%. Small Mr. Saturn top-left: F1.
-Translucent Menu/Map buttons are configurable in the Android-only F1 tab.
-Choose auto/portrait/landscape, button size/opacity, pinch and Run distance.
-Portrait fills the screen with its own world framing and separate native UI.
+P1 can use a keyboard and mouse while P2 uses a controller. Controllers not assigned to P2 can also operate P1.
 
-Optional personal APK: put exactly one compatible ROM in
-"Android apk/Put your rom here - Coloque sua rom aqui", then run "Criar APK pessoal.cmd" from
-the intact Windows project. It creates "EarthBound Ver.3.0 - pessoal.apk".
-The standard APK instead imports the ROM on-device; no rebuild is needed.
-Uninstalling removes the app's private ROM, settings and saves.
-APK signature/alignment/native libraries were checked and gestures simulated;
-this build has NOT been run on a physical Android device.
 
-Version 2.5 fixes are retained: battle-state cold loads, consistent camera
-shutter, 36 slots, four quicksaves, 400x225 thumbnails and improved old previews.
+Meet Mess!
 
-DEDICATION AND THANKS
-Dedicated to everyone who researched, preserved, translated and helped make
-EarthBound accessible on new computers. Thank you to the players and fan
-communities for their care, documentation, tools and translations.
-Thank you to Nintendo, Shigesato Itoi, APE, HAL Laboratory and the original
-development teams for creating EarthBound.
+Mess is a variation of Ness featuring blue stripes, a purple cap, and a special photo pose when spawning into the game!
 
-Native C base: Brian Pugh and BrianPugh/earthbound contributors.
+He also has independent character attributes, including:
+
+His own character statistics;
+
+Individual HP and PP;
+
+Personal inventory and equipment;
+
+Experience and progression based on P1's progress.
+
+Cash rewards earned during shared battles are deposited into P1's party account.
+
+Mess's personal wallet is preserved when entering and leaving shared battles.
+
+The main story party follows P1.
+
+Both players can access their own menus and conversations while the other player continues moving freely.
+
+When players move far apart, the screen splits vertically into two independent panels, one for P1 and another for P2.
+
+Scene transitions carry both players together. Any ongoing battle must be completed before leaving the area.
+
+Both players can trigger essential story dialogues and events.
+
+BATTLES AND SAVING
+
+During individual battles, combat occupies half of the screen while the other player remains free to explore the world.
+
+To join an ongoing battle, simply approach the player who is fighting. The battle then expands to fill the entire screen.
+
+P1 controls Ness, while P2 controls Mess. Both players can also issue commands to other party members.
+
+The system supports all four original heroes plus Mess, allowing a total of five playable characters.
+
+Save states from F1/F2, quicksaves from F3/F4, and the rewind feature restore both players simultaneously.
+
+V4 co-op save states require this experimental build.
+
+Save files are kept separate from those used by the standard port.
+
+In-game phone saves preserve P1's campaign progress. To preserve Mess as well, use F1/F2 save states.
+
+The game uses a single shared audio clock, playing one priority music track at a time.
+
+Always back up your save files!
+
+Co-op mode cannot be disabled during a shared battle.
+
+If a controller disconnects, reconnect it and press Start to resume controlling Mess. Alternatively, disable co-op outside a shared battle.
+
+DEFAULT CONTROLS
+
+PlayStation, Xbox, Switch, and Generic Controllers
+
+Function
+
+PlayStation
+
+Xbox
+
+Switch
+
+Generic
+
+Run / Confirm
+
+Cross (X)
+
+A
+
+B
+
+1
+
+Interact / Confirm
+
+Square
+
+X
+
+Y
+
+3
+
+Personal Menu / Back
+
+Circle
+
+B
+
+A
+
+2
+
+HP / Money
+
+Triangle
+
+Y
+
+X
+
+4
+
+The PlayStation Cross (X) button allows players to run in the overworld and confirm native menus and text.
+
+Running increases movement speed by 23%.
+
+Disabling the Run option also allows the bottom face button to be used for interaction and confirmation.
+
+In the F1/F2 menus, the bottom face button always confirms, while the right face button always goes back, regardless of custom bindings.
+
+Pressing either analog stick (L3 or R3) while inside the F1 menu activates Mr. Saturn.
+
+Shoulder buttons switch between menu tabs.
+
+Additional Controller Shortcuts
+
+F1 Menu: PS/Home/Xbox button.
+
+F2 Menu: Share/Create/View/Capture button.
+
+Zoom: L3 + triggers.
+
+Reset Zoom: R3.
+
+Rewind: Left trigger.
+
+Fast-Forward: Right trigger.
+
+For generic controllers:
+
+Back + shoulder buttons: Rewind and fast-forward.
+
+L3 + shoulder buttons: Zoom.
+
+Back + Start: Opens the F1 menu.
+
+Keyboard and Mouse
+
+Key
+
+Function
+
+WASD / Arrow Keys
+
+Movement
+
+E / Enter
+
+Confirm / Interact
+
+Q / Esc / Ctrl
+
+Back
+
+Tab
+
+Personal Menu
+
+Shift
+
+Run
+
+M
+
+Optional Map
+
+Comma / Period
+
+Zoom
+
++ / -
+
+Fast-Forward / Rewind
+
+F3 / F4
+
+Quicksave Slot Selection
+
+Control presets, customizable bindings, and illustrated guides are available through the F1 menu and the Controls section.
+
+TESTING AND EXPERIMENTAL LIMITATIONS
+
+Windows testing includes:
+
+Two simulated SDL controllers;
+
+Independent player menus;
+
+Both players' combat turns;
+
+Five characters participating in battle;
+
+Scene transitions and player following;
+
+Rewind functionality;
+
+Photography events;
+
+Save states loaded from a fresh launch, including overworld exploration, individual battles, and shared battles.
+
+Linux and macOS versions have been compiled and inspected but have not been executed on their respective operating systems.
+
+The entire campaign and all physical controller models have not yet been tested.
+
+With a full main party, the battle system has room for only one additional NPC companion.
+
+A second companion remains preserved in P1's party outside combat.
+
+This project is an independent adaptation/modification and is neither affiliated with nor endorsed by Nintendo.
+
+All rights remain with their respective owners.
+
+Do not distribute your ROM, personal save files, or extracted game data alongside this project.
+
+Share the distribution ZIP located in the dist directory.
+
+This package excludes Source, Build, Validation, ROMs, save files, and personal settings.
+
+DEDICATION AND ACKNOWLEDGMENTS
+
+Dedicated to everyone who has researched, preserved, translated, and contributed to making EarthBound accessible on modern computers.
+
+Special thanks to the players and fan communities for their dedication, documentation, tools, and translations.
+
+Thank you to Nintendo, Shigesato Itoi, APE, HAL Laboratory, and the original development teams for creating EarthBound.
+
+Technologies, Repositories, and Contributions
+
+Native C base: Brian Pugh and contributors to the BrianPugh/earthbound repository.
+
 https://github.com/BrianPugh/earthbound
-Revision: a2cf5c327d367d90440c5768713056462b0c4d9e.
-SPC700/DSP audio: angelo_wf and LakeSnes contributors (MIT).
-Window, graphics, audio and controllers: Sam Lantinga and SDL2 contributors.
-tamp compression: Brian Pugh and contributors (Apache-2.0).
-Private-build data embedding: Dale Weiler/incbin.
-Campaign checkpoints: FantasyAnime's public save collection and its authors.
-https://fantasyanime.com/legacy/earthb_saves.htm
-Linux/macOS SDL libraries: sourced from TheRunaway5's Phase Distorter 0.5
-packages. Its game executable was not reused.
-Build tools: Zig/Clang, Python, CMake, Ninja, ebtools, Android NDK,
-Android build tools and Eclipse Temurin OpenJDK (Adoptium).
-Computer adaptation, menus and adjustments: Edzito, with Codex assistance.
 
-EARTHBOUND BRASIL 1.0 — April 4, 2015, supplied by the user
+Revision: a2cf5c327d367d90440c5768713056462b0c4d9e
+
+SPC700/DSP Audio: angelo_wf and LakeSnes contributors (MIT).
+
+Windowing, Graphics, Audio, and Controllers: Sam Lantinga and SDL2 contributors.
+
+tamp Compression: Brian Pugh and contributors (Apache-2.0).
+
+Private Build Data Embedding: Dale Weiler/incbin.
+
+Campaign Save Checkpoints: FantasyAnime's public save collection and its contributors.
+
+https://fantasyanime.com/legacy/earthb_saves.htm
+
+Linux/macOS SDL Libraries: Sourced from TheRunaway5's Phase Distorter 0.5 packages. Its game executable was not reused.
+
+Build Tools: Zig/Clang, Python, CMake, Ninja, ebtools, Android NDK, Android build tools, and Eclipse Temurin OpenJDK (Adoptium).
+
+Computer Adaptation, Menus, and Adjustments: Edzito, with Codex assistance.
+
+EARTHBOUND BRASIL 1.0 — APRIL 4, 2015
+
+Translation supplied by the user.
+
 Project: Alex Foffano and Jared Morgan.
-Translation/review/graphics: Alex Foffano; hacking/graphics/review: Jared Morgan.
-Translators: Claus "Set" Martins, Flicky, Gustavo Diógenes (@TesauroRaptor),
-Pedro (Draco), Thiago Cianci, Vanessa and Vinicius.
-Help: H.S, JeffMan, Mr. Tenda, Mr. Accident, Tomato and ShadowOne333.
-Special thanks: Ambrey, Carlos Almeida, Claus, Danilo, Hsing Hui Lee,
-João de Araujo, Mukuro, Porter, Rachel, Régis Sudo, Ruby, Rydel, Sadie,
-Thiago Schreiner, starmen.net, romhackers.org and romhacking.trd.br.
-See licenses for the original complete credits and terms.
+
+Translation, Proofreading, and Graphics: Alex Foffano.
+
+ROM Hacking, Graphics, and Proofreading: Jared Morgan.
+
+Translators: Claus "Set" Martins, Flicky, Gustavo Diógenes (@TesauroRaptor), Pedro (Draco), Thiago Cianci, Vanessa, and Vinicius.
+
+Additional Help: H.S, JeffMan, Mr. Tenda, Mr. Accident, Tomato, and ShadowOne333.
+
+Special Thanks: Ambrey, Carlos Almeida, Claus, Danilo, Hsing Hui Lee, João de Araujo, Mukuro, Porter, Rachel, Régis Sudo, Ruby, Rydel, Sadie, Thiago Schreiner, starmen.net, romhackers.org, and romhacking.trd.br.
+
+Please refer to the licenses directory for the complete original credits and terms of use.
 
 ABOUT THIS ADAPTATION
-An unofficial computer adaptation/modification for personal use.
-Not an official Nintendo product, and not affiliated with or endorsed by it.
-Game names, characters, images, music and trademarks remain the property
-of their respective owners. Credits do not replace permission.
-The EarthBound Brasil translation has its own redistribution conditions;
-read licenses/EarthBoundBrasil-creditos.txt before sharing this adaptation.
-This package grants no permission to redistribute the game, translation or
-other third-party materials, and does not provide a legal guarantee.
+
+This is an unofficial computer adaptation/modification intended for personal use.
+
+THIS PROJECT IS NOT AN OFFICIAL NINTENDO PRODUCT AND IS NOT AFFILIATED WITH OR ENDORSED BY NINTENDO IN ANY WAY.
+
+Game names, characters, images, music, and trademarks remain the property of their respective owners.
+
+Providing credits does not replace the need for permission.
+
+The EarthBound Brasil translation has its own redistribution conditions. Please read licenses/EarthBoundBrasil-creditos.txt before sharing this adaptation.
+
+This package does not grant permission to redistribute the original game, its translation, or any other third-party materials, nor does it provide any legal guarantee.
 
 VALIDATION
-Windows: launch, prologue, saves, battles, audio and virtual controllers tested.
-Linux/macOS: compiled and inspected; not run on those systems on this machine.
-A complete playthrough and every physical controller model were not tested.
+
+Windows: Launch, prologue, save functionality, battles, audio, and virtual controllers have been tested.
+
+Linux/macOS: Both versions have been compiled and inspected but have not been executed on those operating systems using this machine.
+
+A complete playthrough, from beginning to end, has not yet been tested.
+
+Not every physical controller model has been verified.
+
+THANK YOU SO MUCH!
+
+Thank you to everyone willing to try this experimental project, report bugs, share feedback, and help improve the experience.
+
+This project was made with love for EarthBound and its incredible community.
+
+Doing!!!
+
+best wishes,
+Edzito.

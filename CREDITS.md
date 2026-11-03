@@ -73,6 +73,21 @@ The translation's complete original credits and terms remain in
 
 ## This edition and the wider community
 
+### Additional language research — integration pending
+
+The user-supplied Spanish IPS produces CRC32 `162b874c`, matching
+ShadowOne333's Spanish 4.0 project. Thank you to **ShadowOne333 and every
+contributor credited by [EarthBound Spanish Translation](https://github.com/ShadowOne333/EarthBound-Spanish-Translation)**.
+Its translated resources are not integrated in this build. The original
+project's author notices and GPL-3.0 terms remain applicable to its work.
+
+Chinese research identified **Imavoyc and contributors to
+[Mother2Gba-chs](https://github.com/Imavoyc/Mother2Gba-chs)** and **JeffMan and
+contributors to its underlying English GBA translation**. Thank you for that
+work. This is a GBA project; no resources from it are included here. These
+research acknowledgements do not imply completed integration or endorsement.
+See the supplemental translation-status Read Mes for compatibility details.
+
 - **Edzito:** this edition's co-op features, menus, controls, gameplay adjustments and integration.
 - **Codex:** development assistance on this edition.
 - **Community developers, researchers, translators, documenters, preservationists, testers and players:** thank you for the knowledge, tools, bug reports and care that make projects like this possible.
